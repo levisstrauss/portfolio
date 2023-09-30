@@ -144,7 +144,7 @@ export default function Home() {
             gsap.to(group.rotation, {
                 x: -mouse.y * 1.8,
                 y: mouse.x * 1.8,
-                duration: 2
+                duration: 2,
             })
         };
         animate();
