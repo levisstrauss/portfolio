@@ -90,7 +90,7 @@ export default function Home() {
         for (let i = 0; i < 10000; i++){
            const x = (Math.random() - 0.5) * 2000;
            const y = (Math.random() - 0.5) * 2000;
-           const z = -Math.random() * 3000;
+           const z = -Math.random() * 2500;
            starsVertices.push(x, y, z);
         }
 
@@ -140,7 +140,7 @@ export default function Home() {
         const animate = () => {
             requestAnimationFrame(animate);
             renderer.render(scene, camera);
-            sphere.rotation.y += 0.003;
+            //sphere.rotation.y += 0.003;
             gsap.to(group.rotation, {
                 x: -mouse.y * 1.8,
                 y: mouse.x * 1.8,
@@ -153,7 +153,7 @@ export default function Home() {
     return (
         <div className='flex h-screen bg-black'>
             <div className="w-1/2 flex flex-col justify-center px-8">
-                <div style={{maxWidth:500}} className='mx-auto'>
+                <div style={{maxWidth:400}} className='mx-auto'>
                    <h1 className='text-white text-4xl mb-8 leading-none'>HI AND WELCOME TO MY PORTFOLIO</h1>
                     <p className='text-gray-400 mb-8'>
                         Computer Science enthusiast with a fervent passion for
@@ -181,7 +181,6 @@ export default function Home() {
                         </a>
                     </div>
                 </div>
-
             </div>
             <div ref={canvasContainerRef}  className="w-1/2" id="canvasContainer">
                 <canvas></canvas>
