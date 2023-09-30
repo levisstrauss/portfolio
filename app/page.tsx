@@ -162,10 +162,10 @@ export default function Home() {
                         engineer solutions that matter, aspiring always to push the
                         boundaries of what software can achieve. My journey in this
                         dynamic field has been marked by rigorous academic pursuits,
-                        hands-on projects, and a ceaseless desire to learn and innovate.
-                        Let's harness the potential of technology, together.
+                        hands on projects, and a ceaseless desire to learn and innovate.
+                        Lets harness the potential of technology, together.
                     </p>
-                    <p className='text-white'>Want to learn more about me, navigate the globe!</p>
+                    <p className='text-white'>Want to learn more about me, navigate the globe</p>
                     <div className="flex justify-start mt-4 space-x-4" >
                         <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" title="Instagram">
                             <FontAwesomeIcon icon={faInstagram} className="text-xl text-white hover:text-gray-400" />
@@ -187,7 +187,5 @@ export default function Home() {
                 <canvas></canvas>
             </div>
         </div>
-
-
     )
 }
