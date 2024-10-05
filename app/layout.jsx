@@ -5,6 +5,7 @@ import "./globals.css";
 import Header from "../components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
+import Footer from "@/components/Footer";
 
 
 const JetBrainsMono = JetBrains_Mono({
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         <PageTransition>
           {children}
         </PageTransition>
+        {/*<Footer />*/}
       </body>
     </html>
   );

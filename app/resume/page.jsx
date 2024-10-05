@@ -14,7 +14,7 @@ import { ScrollArea} from "@/components/ui/scroll-area";
 
 const about = {
     title: "About Me",
-    description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
+    description: "I am a passionate developer skilled in web and mobile technologies, machine learning, and UI/UX design, dedicated to creating impactful digital experiences.",
     info: [
         {
             fieldName: "Name",
@@ -38,7 +38,7 @@ const about = {
         },
         {
             fieldName: "Twitter",
-            fieldValue: "Levis@2021"
+            fieldValue: "Levis@2024"
         },
         {
             fieldName: "Opportunity",
@@ -46,7 +46,7 @@ const about = {
         },
         {
             fieldName: "Youtube",
-            fieldValue: "Codemon"
+            fieldValue: "@codemon577"
         },
     ]
 }
@@ -67,27 +67,7 @@ const experience = {
             company: "UPS",
             position: "Front Line Supervisor",
             duration: "2 Years ago"
-        },
-        {
-            company: "UPS",
-            position: "Front Line Supervisor",
-            duration: "2 Years ago"
-        },
-        {
-            company: "UPS",
-            position: "Front Line Supervisor",
-            duration: "2 Years ago"
-        },
-        {
-            company: "UPS",
-            position: "Front Line Supervisor",
-            duration: "2 Years ago"
-        },
-        {
-            company: "UPS",
-            position: "Front Line Supervisor",
-            duration: "2 Years ago"
-        },
+        }
     ]
 }
 
@@ -109,17 +89,17 @@ const education = {
             duration: "2019-2021"
         },
         {
-            institution: "Coursera Online Course Platform",
+            institution: "Coursera Platform",
             degree: "Mathematics for ML and DS Specialization",
             duration: "2023"
         },
         {
-            institution: "Coursera Online Course Platform",
+            institution: "Coursera Platform",
             degree: "Deep Learning Specialization",
             duration: "2023"
         },
         {
-            institution: "Coursera Online Course Platform",
+            institution: "Coursera Platform",
             degree: "Mathematics for ML & DS Specialization",
             duration: "2023"
         },
@@ -129,17 +109,17 @@ const education = {
             duration: "2023"
         },
         {
-            institution: "Coursera Online Course Platform",
+            institution: "Coursera Platform",
             degree: "C Programming with Linux Specialization",
             duration: "2023"
         },
         {
-            institution: "Coursera Online Course Platform",
+            institution: "Coursera Platform",
             degree: "NLP Specialization",
             duration: "2023"
         },
         {
-            institution: "Scrimba Online Course Platform",
+            institution: "Scrimba Platform",
             degree: "Frontend development Specialization",
             duration: "2023"
         },
@@ -150,7 +130,7 @@ const education = {
 
 const skills = {
     title: "My Skills",
-    description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
+    description: "I specialize in web and mobile development, machine learning, and UI/UX design, creating efficient, user-friendly applications that deliver results.",
     skillList: [
         {
             icon: <FaHtml5 />,

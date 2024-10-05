@@ -8,38 +8,26 @@ import { motion } from "framer-motion";
 const services = [
     {
         num: '01',
-        title: 'Web Development',
-        description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
+        title: 'Web/Mobile Dev',
+        description: "I create fast, responsive websites and mobile apps that deliver exceptional user experiences. Let’s build a web presence that makes an impact!",
         href: " ",
     },
     {
         num: '02',
-        title: 'Data Analyst',
-        description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
+        title: 'UI/UX Designer',
+        description: "I design user-centered interfaces that are both functional and visually appealing. Let’s create designs that resonate with users!!",
         href: " ",
     },
     {
         num: '03',
-        title: 'Mobile Development',
-        description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
+        title: 'ML/AI',
+        description: "I create AI-driven solutions that transform data into insights and fuel innovation. Let’s unlock the power of AI for your business!",
         href: " ",
     },
     {
         num: '04',
-        title: 'Machine Learning',
-        description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
-        href: " ",
-    },
-    {
-        num: '05',
-        title: 'Data Engineering',
-        description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
-        href: " ",
-    },
-    {
-        num: '05',
         title: 'AWS',
-        description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
+        description: "I design and deploy scalable AWS cloud solutions to boost performance, security, and efficiency. Let’s optimize your infrastructure for innovation",
         href: " ",
     }
 ]

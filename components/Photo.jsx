@@ -22,7 +22,7 @@ const Photo = () => {
             }} className="w-[298px] h-[298px] xl:w-[498px]  xl:h-[498px] mix-blend-lighten absolute"
             >
                <Image
-                   src="/assets/photo.png"
+                   src="/assets/img.png"
                    priority
                    quality={100}
                    fill
@@ -49,6 +49,16 @@ const Photo = () => {
                             strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
                             rotate: [120, 360],
                         }}
+                        // animate={{
+                        //     strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
+                        //     rotate: [120, 360],
+                        //     stroke: ["#00ff99", "#ff0099", "#0099ff"], // Color transition
+                        // }}
+                        // animate={{
+                        //     strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
+                        //     rotate: [120, 360],
+                        //     scale: [1, 1.2, 1], // Pulse effect
+                        // }}
                         transition={{
                             duration: 20,
                             repeat: Infinity,
