@@ -51,7 +51,7 @@ const Home = () => {
                   {/*------------- Btn and socials ---------------------*/}
                   <div className="flex flex-col xl:flex-row items-center gap-8">
                       {/*------------- Btn for downloading CV ---------------------*/}
-                      <a href="/resume/resume.pdf" download="Zakaria_Coulibaly_Resume.pdf">
+                      <a href="" download="Zakaria_Coulibaly_Resume.pdf">
                           <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
                               <span>Download CV</span>
                               <FiDownload className="text-xl"/>
