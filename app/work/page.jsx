@@ -107,7 +107,7 @@ const Work = () => {
                             {/*------------ Button --------------------*/}
                             <div className="flex items-center gap-4">
                                 {/*------------ Live project Button --------------------*/}
-                                <Link href={project.live}>
+                                <Link href={project.live} target="_blank" rel="noopener noreferrer">
                                     <TooltipProvider delayDuration={100}>
                                        <Tooltip>
                                            <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex

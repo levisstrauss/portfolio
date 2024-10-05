@@ -76,7 +76,7 @@ const experience = {
 const education = {
     icon: '/assets/resume/cap.svg',
     title: 'My education',
-    description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
+    description: "Skilled in computer science and engineering, with expertise in software development, AI, and machine learning. My education drives my passion for innovative tech solutions.",
     items: [
         {
             institution: "Penn State University",
@@ -84,7 +84,7 @@ const education = {
             duration: "2022-2024"
         },
         {
-            institution: "Community College of Philadelphia",
+            institution: "CCP",
             degree: "Associate in Computer Science",
             duration: "2019-2021"
         },
