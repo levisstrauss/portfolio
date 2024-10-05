@@ -6,7 +6,7 @@ A modern, responsive portfolio website built with cutting-edge technologies. Thi
 
 ## **Live Demo**
 
-You can view the live demo of the project here: [Website](https://nextjs.org/)
+You can view the live demo of the project here: [Website](https://portfolio-ten-iota-26.vercel.app/services)
 
 ## **Technologies Used**
 

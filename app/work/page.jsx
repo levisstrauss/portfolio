@@ -24,7 +24,7 @@ const projects = [
             { name: "EmailJS"},
         ],
         image: '/assets/work/portfolio-thumb.png',
-        live: "https://github.com/levisstrauss/portfolio",
+        live: "https://portfolio-ten-iota-26.vercel.app/services",
         github: "https://github.com/levisstrauss/portfolio",
     },
     {
