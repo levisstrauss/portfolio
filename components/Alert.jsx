@@ -4,7 +4,7 @@ const Alert = ({ type, text }) => {
         <div className="fixed bottom-5 right-5 flex justify-center items-center z-50">
             <div
                 className={`p-2 ${
-                    type === 'danger' ? 'bg-red-800 text-white' : 'bg-accent-800 text-black' 
+                    type === 'danger' ? 'bg-red-500 text-white' : 'bg-accent text-black' 
                 } items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex rounded-md p-5`}
                 role="alert">
 
