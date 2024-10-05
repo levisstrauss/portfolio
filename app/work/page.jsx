@@ -14,6 +14,21 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
     {
         num: "01",
+        category: "Front End",
+        title: "Personal Portfolio Website",
+        description: "A modern and responsive portfolio website showcasing projects, skills, and contact details. Integrated with EmailJS for contact form functionality.",
+        stack: [
+            { name: "Next.js" },
+            { name: "Tailwind CSS" },
+            { name: "Framer Motion" },
+            { name: "EmailJS"},
+        ],
+        image: '/assets/work/portfolio-thumb.png',
+        live: "https://github.com/levisstrauss/portfolio",
+        github: "https://github.com/levisstrauss/portfolio",
+    },
+    {
+        num: "02",
         category: "frontend",
         title: "project 1",
         description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
@@ -23,7 +38,7 @@ const projects = [
         github: "",
     },
     {
-        num: "02",
+        num: "03",
         category: "Full Stack",
         title: "project 2",
         description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
@@ -33,7 +48,7 @@ const projects = [
         github: "",
     },
     {
-        num: "03",
+        num: "04",
         category: "frontend",
         title: "project 3",
         description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
@@ -141,7 +156,7 @@ const Work = () => {
                                            </div>
                                            {/*------------ Image --------------------*/}
                                            <div className="relative w-full h-full">
-                                               <Image src={project.image}  fill className="object-cover" alt="" />
+                                               <Image src={project.image}  fill className="object-fill" alt="" />
                                            </div>
                                        </div>
                                    </SwiperSlide>
