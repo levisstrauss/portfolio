@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import { motion } from "framer-motion";
 
-const services = [
+const skills = [
     {
         num: '01',
         title: 'Web/Mobile Dev',
@@ -45,7 +45,7 @@ const Services = () => {
                }}
                className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
               >
-              {services.map((service, index) => {
+              {skills.map((service, index) => {
                   return (
                       <div key={index} className="flex-1 flex flex-col justify-center gap-6 group">
                           {/*------------- Top ---------------------*/}
