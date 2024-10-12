@@ -26,37 +26,7 @@ const projects = [
         image: '/assets/work/portfolio-thumb.png',
         live: "https://codemon.io/",
         github: "https://github.com/levisstrauss/portfolio",
-    },
-    {
-        num: "02",
-        category: "frontend",
-        title: "project 1",
-        description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
-        stack: [{name: "Html 5"}, {name: "CSS 3"}, {name: "JavaScript"}],
-        image: '/assets/work/thumb1.png',
-        live: "",
-        github: "",
-    },
-    {
-        num: "03",
-        category: "Full Stack",
-        title: "project 2",
-        description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
-        stack: [{name: "Next.js"},{name: "Tailwind.css"}, {name: "JavaScript"}],
-        image: '/assets/work/thumb2.png',
-        live: "",
-        github: "",
-    },
-    {
-        num: "04",
-        category: "frontend",
-        title: "project 3",
-        description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
-        stack: [{name: "Next.js"},{name: "Tailwind.css"}],
-        image: '/assets/work/thumb3.png',
-        live: "",
-        github: "",
-    },
+    }
 ]
 
 

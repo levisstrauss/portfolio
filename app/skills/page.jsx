@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const skills = [
     {
         num: '01',
-        title: 'Web/Mobile Dev',
+        title: 'Full Stack Developer',
         description: "I create fast, responsive websites and mobile apps that deliver exceptional user experiences. Let’s build a web presence that makes an impact!",
         href: " ",
     },
@@ -20,12 +20,6 @@ const skills = [
     },
     {
         num: '03',
-        title: 'ML/AI',
-        description: "I create AI-driven solutions that transform data into insights and fuel innovation. Let’s unlock the power of AI for your business!",
-        href: " ",
-    },
-    {
-        num: '04',
         title: 'AWS',
         description: "I design and deploy scalable AWS cloud solutions to boost performance, security, and efficiency. Let’s optimize your infrastructure for innovation",
         href: " ",
