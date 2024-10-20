@@ -12,7 +12,6 @@ const stairAnimation = {
         top: ["100%", "0%"],
     },
 }
-
 const reverseIndex = (index) => {
     const totalStates = 6;
     return totalStates - index - 1;

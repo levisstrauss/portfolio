@@ -58,16 +58,16 @@ const experience = {
     title: 'My experience',
     description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
     items: [
-        {
-            company: "Amazon",
-            position: "Associate",
-            duration: "3 Months ago"
-        },
-        {
-            company: "UPS",
-            position: "Front Line Supervisor",
-            duration: "2 Years ago"
-        }
+        // {
+        //     company: "Amazon",
+        //     position: "Associate",
+        //     duration: "3 Months ago"
+        // },
+        // {
+        //     company: "UPS",
+        //     position: "Front Line Supervisor",
+        //     duration: "2 Years ago"
+        // }
     ]
 }
 

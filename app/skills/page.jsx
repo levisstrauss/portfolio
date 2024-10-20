@@ -9,20 +9,30 @@ const skills = [
     {
         num: '01',
         title: 'Full Stack Developer',
-        description: "I create fast, responsive websites and mobile apps that deliver exceptional user experiences. Let’s build a web presence that makes an impact!",
+        // description: "I create fast, responsive websites and mobile apps that deliver exceptional user experiences. Let’s build a web presence that makes an impact!",
+        description: "commune nihil noster maiestatis natoque omittantur alienum quidam instructior latine",
         href: " ",
     },
     {
         num: '02',
         title: 'UI/UX Designer',
-        description: "I design user-centered interfaces that are both functional and visually appealing. Let’s create designs that resonate with users!!",
+        // description: "I design user-centered interfaces that are both functional and visually appealing. Let’s create designs that resonate with users!!",
+        description: "commune nihil noster maiestatis natoque omittantur alienum quidam instructior latine",
         href: " ",
     },
     {
         num: '03',
         title: 'AWS',
-        description: "I design and deploy scalable AWS cloud solutions to boost performance, security, and efficiency. Let’s optimize your infrastructure for innovation",
+        // description: "I design and deploy scalable AWS cloud solutions to boost performance, security, and efficiency. Let’s optimize your infrastructure for innovation",
+        description: "commune nihil noster maiestatis natoque omittantur alienum quidam instructior latine",
         href: " ",
+    },
+    {
+        num: '04',
+        title: 'Machine Learning',
+        // description: "ML",
+        description: "commune nihil noster maiestatis natoque omittantur alienum quidam instructior latine",
+        href: "",
     }
 ]
 

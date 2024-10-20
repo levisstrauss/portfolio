@@ -126,7 +126,7 @@ const Work = () => {
                                            </div>
                                            {/*------------ Image --------------------*/}
                                            <div className="relative w-full h-full">
-                                               <Image src={project.image}  fill className="object-fill" alt="" />
+                                               <Image src={project.image}  fill className="object-fit" alt="" />
                                            </div>
                                        </div>
                                    </SwiperSlide>
