@@ -37,7 +37,7 @@ const Home = () => {
                       {!loading && (
                       <Typewriter
                           options={{
-                              strings: ['Web/Mobile Developer', 'ML/AI Practitioner'],
+                              strings: ['Software & ML Engineer'],
                               autoStart: true,
                               loop: true,
                           }}
