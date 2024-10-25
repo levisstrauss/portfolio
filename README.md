@@ -1,12 +1,12 @@
 # **Project Title: Portfolio Website**
 
-![Project Screenshot](./public/assets/dashboard.png) 
+![Project Screenshot](./public/assets/dashs.png) 
 
 A modern, responsive portfolio website built with cutting-edge technologies. This website showcases a clean design with advanced animations, seamless user experience, and integration with EmailJS for contact forms. It's designed to display projects, skills, and personal information in a professional format.
 
 ## **Live Demo**
 
-You can view the live demo of the project here: [Website](https://portfolio-ten-iota-26.vercel.app/services)
+You can view the live demo of the project here: [Website](https://codemon.io)
 
 ## **Technologies Used**
 

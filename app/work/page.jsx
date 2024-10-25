@@ -23,7 +23,7 @@ const projects = [
             { name: "Framer Motion" },
             { name: "EmailJS"},
         ],
-        image: '/assets/work/portfolio-thumb.png',
+        image: '/assets/work/portfolio.png',
         live: "https://codemon.io/",
         github: "https://github.com/levisstrauss/portfolio",
     }
