@@ -14,7 +14,7 @@ import { ScrollArea} from "@/components/ui/scroll-area";
 
 const about = {
     title: "About Me",
-    description: "I am a passionate developer skilled in web and mobile technologies, machine learning, and UI/UX design, dedicated to creating impactful digital experiences.",
+    description: "A software and AI/ML engineer driven by the intersection of innovation and technology. With a strong foundation in computer science and mathematics, I develop intelligent solutions that merge cutting-edge machine learning with robust software engineering principles.",
     info: [
         {
             fieldName: "Name",
@@ -56,7 +56,7 @@ const about = {
 const experience = {
     icon: '/assets/resume/badge.svg',
     title: 'My experience',
-    description: "Magna Podio aut doldrums ut query. Molest aut query qualm.Ut est supernatural aut non",
+    description: "Currently expanding my expertise through hands-on projects and continuous learning in software development and machine learning. Actively seeking opportunities to apply my strong foundation in computer science and mathematics to real-world AI solutions.",
     items: [
         // {
         //     company: "Amazon",
@@ -130,7 +130,8 @@ const education = {
 
 const skills = {
     title: "My Skills",
-    description: "I specialize in web and mobile development, machine learning, and UI/UX design, creating efficient, user-friendly applications that deliver results.",
+    description: "Proficient in full-stack development, machine learning algorithms, and cloud technologies. Skilled in" +
+        " creating intelligent applications using Python, TensorFlow, and AWS, with a strong foundation in responsive web design.",
     skillList: [
         {
             icon: <FaHtml5 />,

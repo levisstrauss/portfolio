@@ -8,32 +8,29 @@ import { motion } from "framer-motion";
 const skills = [
     {
         num: '01',
-        title: 'Full Stack Developer',
-        // description: "I create fast, responsive websites and mobile apps that deliver exceptional user experiences. Let’s build a web presence that makes an impact!",
-        description: "commune nihil noster maiestatis natoque omittantur alienum quidam instructior latine",
+        title: 'Software Developer',
+        description: "Crafting robust and scalable applications using modern programming languages and frameworks. Experienced in full-stack development, with a focus on clean code architecture and efficient problem-solving.",
         href: " ",
     },
     {
         num: '02',
-        title: 'UI/UX Designer',
-        // description: "I design user-centered interfaces that are both functional and visually appealing. Let’s create designs that resonate with users!!",
-        description: "commune nihil noster maiestatis natoque omittantur alienum quidam instructior latine",
-        href: " ",
+        title: 'AI/ML Engineer',
+        description: "Developing intelligent solutions through machine learning algorithms and deep learning models. Specializing in data analysis, predictive modeling, and implementing AI-driven applications that solve real-world challenges.",
+        href: "",
     },
     {
         num: '03',
-        title: 'AWS',
-        // description: "I design and deploy scalable AWS cloud solutions to boost performance, security, and efficiency. Let’s optimize your infrastructure for innovation",
-        description: "commune nihil noster maiestatis natoque omittantur alienum quidam instructior latine",
+        title: 'UI/UX Designer',
+        description: "Creating intuitive and engaging user experiences through thoughtful interface design. Combining aesthetic principles with user-centered design methodologies to deliver seamless digital interactions that delight users.",
         href: " ",
     },
     {
         num: '04',
-        title: 'Machine Learning',
-        // description: "ML",
-        description: "commune nihil noster maiestatis natoque omittantur alienum quidam instructior latine",
-        href: "",
+        title: 'AWS',
+        description: "Architecting and deploying cloud solutions using Amazon Web Services. Expertise in cloud infrastructure, serverless computing, and implementing secure, highly available systems that scale efficiently.",
+        href: " ",
     }
+
 ]
 
 

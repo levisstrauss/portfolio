@@ -32,12 +32,12 @@ const Home = () => {
                         Zakaria Coulibaly
                       </span>
                   </h1>
-                  <p className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">I&#39;m a</p>
+                  <p className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">I&#39;m a software <br/> developer &</p>
                   <span className="text-accent text-3xl md:text-4xl lg:text-5xl font-bold">
                       {!loading && (
                       <Typewriter
                           options={{
-                              strings: ['Software & ML Engineer'],
+                              strings: ['AI/ML Engineer'],
                               autoStart: true,
                               loop: true,
                           }}
@@ -45,8 +45,8 @@ const Home = () => {
                       )}
                   </span>
                   <p className="max-w-[500px] mb-9 text-white/80">
-                      I specialize in crafting sophisticated digital experiences using various programming languages and
-                      technologies.
+                      I architect intelligent solutions at the intersection of artificial intelligence and software
+                      engineering, transforming complex data into impactful applications.
                   </p>
                   {/*------------- Btn and socials ---------------------*/}
                   <div className="flex flex-col xl:flex-row items-center gap-8">
