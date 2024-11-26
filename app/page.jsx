@@ -29,10 +29,10 @@ const Home = () => {
                   <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                       Hello I&#39;m <br/>
                       <span className="text-accent text-3xl md:text-4xl lg:text-5xl font-bold">
-                        Zakaria Coulibaly
+                        Zak
                       </span>
                   </h1>
-                  <p className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">I&#39;m a software <br/> developer &</p>
+                  <p className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"> and I&#39;m an</p>
                   <span className="text-accent text-3xl md:text-4xl lg:text-5xl font-bold">
                       {!loading && (
                       <Typewriter
@@ -45,8 +45,9 @@ const Home = () => {
                       )}
                   </span>
                   <p className="max-w-[500px] mb-9 text-white/80">
-                      I architect intelligent solutions at the intersection of artificial intelligence and software
-                      engineering, transforming complex data into impactful applications.
+                      I develop intelligent systems at the intersection of artificial intelligence and software
+                      engineering, leveraging advanced machine learning techniques to transform complex data into
+                      innovative, impactful solutions.
                   </p>
                   {/*------------- Btn and socials ---------------------*/}
                   <div className="flex flex-col xl:flex-row items-center gap-8">
