@@ -93,8 +93,8 @@ const education = {
             duration: "2022-2024",
         },
         {
-            institution: "Community College of Philadelphia",
-            degree: "Associate's in Computer Science",
+            institution: "CCP",
+            degree: "AS in CS",
             duration: "2019-2021",
         },
         {
@@ -114,7 +114,7 @@ const education = {
         },
         {
             institution: "Coursera",
-            degree: "Mathematics for Machine Learning & Data Science Specialization",
+            degree: "Math for ML & DS Specialization",
             duration: "2023",
         },
         {
