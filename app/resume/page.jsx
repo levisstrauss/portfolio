@@ -67,7 +67,10 @@ const about = {
 const experience = {
     icon: '/assets/resume/badge.svg',
     title: 'My experience',
-    description: "Currently expanding my expertise through hands-on projects and continuous learning in software development and machine learning. Actively seeking opportunities to apply my strong foundation in computer science and mathematics to real-world AI solutions.",
+    description: "I am continuously expanding my skills through hands-on projects and ongoing " +
+        "learning in software development and machine learning. I am eager to apply my strong " +
+        "foundation in computer science and mathematics to create impactful AI solutions " +
+        "in real-world applications.",
     items: [
         {
             company: "Amazon",
