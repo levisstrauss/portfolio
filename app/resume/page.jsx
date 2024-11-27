@@ -89,7 +89,7 @@ const education = {
     items: [
         {
             institution: "Penn State University",
-            degree: "Bachelor's in Computer Science / Minor in Mathematics",
+            degree: "BS in CS / Math Minor",
             duration: "2022-2024",
         },
         {
