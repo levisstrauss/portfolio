@@ -158,10 +158,10 @@ const Contact = () => {
                                <SelectContent>
                                    <SelectGroup>
                                        <SelectLabel>Select a service</SelectLabel>
-                                       <SelectItem value="Web/Mobile Development">Web/Mobile Development</SelectItem>
-                                       <SelectItem value="UI/UX Design">UI/UX Design</SelectItem>
-                                       <SelectItem value="ML/AI">ML/AI</SelectItem>
-                                       <SelectItem value="Cloud and Automation">Cloud and Automation</SelectItem>
+                                       <SelectItem value="AI/ML Engineer">AI/ML Engineer</SelectItem>
+                                       <SelectItem value="Data Analyst">Data Analyst</SelectItem>
+                                       <SelectItem value="Cloud & DevOps (AWS)">Cloud & DevOps (AWS)</SelectItem>
+                                       <SelectItem value="Software Developer">Software Developer</SelectItem>
                                    </SelectGroup>
                                </SelectContent>
                            </Select>
