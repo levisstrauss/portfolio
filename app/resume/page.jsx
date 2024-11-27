@@ -3,7 +3,16 @@
 
 import { motion } from "framer-motion";
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs} from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+    SiTailwindcss,
+    SiNextdotjs,
+    SiDocker,
+    SiKubernetes,
+    SiFigma,
+    SiAwsamplify,
+    SiSqlite,
+    SiScikitlearn, SiPandas, SiNumpy, SiPython, SiTensorflow, SiPytorch
+} from "react-icons/si";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/components/ui/tooltip";
 import { ScrollArea} from "@/components/ui/scroll-area";
@@ -58,16 +67,11 @@ const experience = {
     title: 'My experience',
     description: "Currently expanding my expertise through hands-on projects and continuous learning in software development and machine learning. Actively seeking opportunities to apply my strong foundation in computer science and mathematics to real-world AI solutions.",
     items: [
-        // {
-        //     company: "Amazon",
-        //     position: "Associate",
-        //     duration: "3 Months ago"
-        // },
-        // {
-        //     company: "UPS",
-        //     position: "Front Line Supervisor",
-        //     duration: "2 Years ago"
-        // }
+        {
+            company: "Amazon",
+            position: "Associate",
+            duration: ""
+        },
     ]
 }
 
@@ -75,100 +79,157 @@ const experience = {
 
 const education = {
     icon: '/assets/resume/cap.svg',
-    title: 'My education',
-    description: "Skilled in computer science and engineering, with expertise in software development, AI, and machine learning. My education drives my passion for innovative tech solutions.",
+    title: 'My Education',
+    description: "Equipped with a solid foundation in computer science and engineering, complemented by specialized learning in AI, machine learning, and mathematics. My academic journey reflects a dedication to solving complex challenges through innovative technology.",
     items: [
         {
             institution: "Penn State University",
-            degree: "Bachelor in CS / Minor Mathematics",
-            duration: "2022-2024"
+            degree: "Bachelor's in Computer Science / Minor in Mathematics",
+            duration: "2022-2024",
         },
         {
-            institution: "CCP",
-            degree: "Associate in Computer Science",
-            duration: "2019-2021"
+            institution: "Community College of Philadelphia",
+            degree: "Associate's in Computer Science",
+            duration: "2019-2021",
         },
         {
-            institution: "Coursera Platform",
-            degree: "Mathematics for ML and DS Specialization",
-            duration: "2023"
+            institution: "Coursera",
+            degree: "Generative AI for Software Development",
+            duration: "2024",
         },
         {
-            institution: "Coursera Platform",
+            institution: "Coursera",
             degree: "Deep Learning Specialization",
-            duration: "2023"
+            duration: "2023",
         },
         {
-            institution: "Coursera Platform",
-            degree: "Mathematics for ML & DS Specialization",
-            duration: "2023"
+            institution: "Coursera",
+            degree: "Machine Learning Specialization",
+            duration: "2023",
         },
         {
-            institution: "Coursera Online Course Platform",
-            degree: "ML Specialization",
-            duration: "2023"
+            institution: "Coursera",
+            degree: "Mathematics for Machine Learning & Data Science Specialization",
+            duration: "2023",
         },
         {
-            institution: "Coursera Platform",
+            institution: "Coursera",
             degree: "C Programming with Linux Specialization",
-            duration: "2023"
+            duration: "2023",
         },
         {
-            institution: "Coursera Platform",
-            degree: "NLP Specialization",
-            duration: "2023"
+            institution: "Scrimba",
+            degree: "Frontend Development Specialization",
+            duration: "2023",
         },
-        {
-            institution: "Scrimba Platform",
-            degree: "Frontend development Specialization",
-            duration: "2023"
-        },
-    ]
-}
+    ],
+};
 
 {/*------------- Skills data ---------------------*/}
 
+// const skills = {
+//     title: "My Skills",
+//     description: "Proficient in full-stack development, machine learning algorithms, and cloud technologies. Skilled in" +
+//         " creating intelligent applications using Python, TensorFlow, and AWS, with a strong foundation in responsive web design.",
+//     skillList: [
+//         {
+//             icon: <FaHtml5 />,
+//             name: "html 5"
+//         },
+//         {
+//             icon: <FaCss3 />,
+//             name: "css 3"
+//         },
+//         {
+//             icon: <FaJs />,
+//             name: "javascript"
+//         },
+//         {
+//             icon: <FaReact />,
+//             name: "react.js"
+//         },
+//         {
+//             icon: <SiNextdotjs/>,
+//             name: "next.js"
+//         },
+//         {
+//             icon: <SiTailwindcss />,
+//             name: "tailwind.css"
+//         },
+//         {
+//             icon: <FaNodeJs />,
+//             name: "node.js"
+//         },
+//         {
+//             icon: <FaFigma />,
+//             name: "figma"
+//         }
+//
+//     ]
+// }
+
 const skills = {
     title: "My Skills",
-    description: "Proficient in full-stack development, machine learning algorithms, and cloud technologies. Skilled in" +
-        " creating intelligent applications using Python, TensorFlow, and AWS, with a strong foundation in responsive web design.",
+    description: "Proficient in machine learning algorithms, data analysis, and cloud technologies. Skilled in building intelligent applications using Python, TensorFlow, and AWS, with additional expertise in full-stack development and responsive web design.",
     skillList: [
         {
-            icon: <FaHtml5 />,
-            name: "html 5"
+            icon: <SiPython />,
+            name: "Python"
         },
         {
-            icon: <FaCss3 />,
-            name: "css 3"
+            icon: <SiTensorflow />,
+            name: "TensorFlow"
         },
         {
-            icon: <FaJs />,
-            name: "javascript"
+            icon: <SiPytorch />,
+            name: "PyTorch"
+        },
+        {
+            icon: <SiNumpy />,
+            name: "NumPy"
+        },
+        {
+            icon: <SiPandas />,
+            name: "Pandas"
+        },
+        {
+            icon: <SiScikitlearn />,
+            name: "scikit-learn"
+        },
+        {
+            icon: <SiSqlite />,
+            name: "SQL"
+        },
+        {
+            icon: <SiAwsamplify />,
+            name: "AWS"
         },
         {
             icon: <FaReact />,
-            name: "react.js"
+            name: "React.js"
         },
         {
-            icon: <SiNextdotjs/>,
-            name: "next.js"
-        },
-        {
-            icon: <SiTailwindcss />,
-            name: "tailwind.css"
+            icon: <SiNextdotjs />,
+            name: "Next.js"
         },
         {
             icon: <FaNodeJs />,
-            name: "node.js"
+            name: "Node.js"
         },
         {
-            icon: <FaFigma />,
-            name: "figma"
+            icon: <SiDocker />,
+            name: "Docker"
+        },
+        {
+            icon: <SiKubernetes />,
+            name: "Kubernetes"
+        },
+        {
+            icon: <SiFigma />,
+            name: "Figma"
         }
-
     ]
-}
-
+};
 
 const Resume = () => {
     return (

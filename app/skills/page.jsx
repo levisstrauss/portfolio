@@ -8,30 +8,29 @@ import { motion } from "framer-motion";
 const skills = [
     {
         num: '01',
-        title: 'Software Developer',
-        description: "Crafting robust and scalable applications using modern programming languages and frameworks. Experienced in full-stack development, with a focus on clean code architecture and efficient problem-solving.",
-        href: " ",
-    },
-    {
-        num: '02',
         title: 'AI/ML Engineer',
-        description: "Developing intelligent solutions through machine learning algorithms and deep learning models. Specializing in data analysis, predictive modeling, and implementing AI-driven applications that solve real-world challenges.",
+        description: "Developing intelligent solutions using advanced machine learning algorithms and deep learning models. Specializing in predictive analytics, data-driven decision-making, and building AI-powered applications to solve complex real-world problems.",
         href: "",
     },
     {
+        num: '02',
+        title: 'Data Analyst',
+        description: "Transforming raw data into actionable insights through statistical analysis, data visualization, and reporting. Proficient in identifying trends, building data pipelines, and enabling informed business decisions with a focus on AI-driven analytics.",
+        href: " ",
+    },
+    {
         num: '03',
-        title: 'UI/UX Designer',
-        description: "Creating intuitive and engaging user experiences through thoughtful interface design. Combining aesthetic principles with user-centered design methodologies to deliver seamless digital interactions that delight users.",
+        title: 'Cloud & DevOps (AWS)',
+        description: "Designing, deploying, and managing cloud infrastructure with Amazon Web Services. Skilled in containerization, serverless architecture, and ensuring scalability and efficiency for AI/ML workflows and other applications.",
         href: " ",
     },
     {
         num: '04',
-        title: 'AWS',
-        description: "Architecting and deploying cloud solutions using Amazon Web Services. Expertise in cloud infrastructure, serverless computing, and implementing secure, highly available systems that scale efficiently.",
+        title: 'Software Developer',
+        description: "Building scalable, maintainable, and efficient software solutions. Combining expertise in full-stack development with a focus on integrating machine learning models into production-ready applications.",
         href: " ",
-    }
-
-]
+    },
+];
 
 
 const Skills = () => {
