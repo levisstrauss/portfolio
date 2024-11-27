@@ -23,7 +23,9 @@ import { ScrollArea} from "@/components/ui/scroll-area";
 
 const about = {
     title: "About Me",
-    description: "A software and AI/ML engineer driven by the intersection of innovation and technology. With a strong foundation in computer science and mathematics, I develop intelligent solutions that merge cutting-edge machine learning with robust software engineering principles.",
+    description: "I am an AI/ML engineer and software developer passionate about innovating at " +
+        "the intersection of technology and intelligence. With expertise in computer science " +
+        "and mathematics, I design and deploy machine learning systems to solve real-world challenges.",
     info: [
         {
             fieldName: "Name",
