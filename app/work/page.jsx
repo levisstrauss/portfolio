@@ -38,6 +38,7 @@ const projects = [
             { name: "Matplotlib"},
         ],
         image: '/assets/work/thumb2.png',
+        live: "",
         github: "https://github.com/levisstrauss/flower_classification",
     },
     {
@@ -57,6 +58,7 @@ const projects = [
             { name: "PIL" }
         ],
         image: '/assets/work/thumb3.png',
+        live: "",
         github: "https://github.com/levisstrauss/Dog_breed_identification"
     }
 ]
