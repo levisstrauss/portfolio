@@ -23,9 +23,23 @@ const projects = [
             { name: "Framer Motion" },
             { name: "EmailJS"},
         ],
-        image: '/assets/work/portfolio.png',
+        image: '/assets/work/thumb1.png',
         live: "https://codemon.io/",
         github: "https://github.com/levisstrauss/portfolio",
+    },
+    {
+        num: "02",
+        category: "Deep Learning",
+        title: "EfficientNet Flower Classification",
+        description: "An advanced flower classification system implementing transfer learning with the EfficientNet-B0 architecture. The model leverages EfficientNet's compound scaling method to achieve superior accuracy while maintaining computational efficiency. Fine-tuned on a custom flower dataset, the system demonstrates state-of-the-art performance in species identification while requiring minimal computational resources. The project showcases practical applications of modern CNN architectures in real-world image classification tasks.",
+        stack: [
+            { name: "PyTorch" },
+            { name: "EfficientNet-B0"},
+            { name: "Python" },
+            { name: "Matplotlib"},
+        ],
+        image: '/assets/work/thumb2.png',
+        github: "https://github.com/levisstrauss/flower_classification",
     }
 ]
 
