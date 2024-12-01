@@ -95,7 +95,6 @@ portfolio/
 │   └── resume/
 └── ....
 ```
-
 ## 📫 Contact
 
 For questions or feedback, reach out through:
@@ -122,7 +121,7 @@ This project is licensed under the MIT License—see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-Made with ❤️ by [Your Name]
+Made with ❤️ by Zak
 
 ⭐️ If you like this project, give it a star on GitHub! ⭐️
 </div>
