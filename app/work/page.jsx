@@ -38,8 +38,26 @@ const projects = [
             { name: "Matplotlib"},
         ],
         image: '/assets/work/thumb2.png',
-        live: "",
         github: "https://github.com/levisstrauss/flower_classification",
+    },
+    {
+        num: "03",
+        category: "Deep Learning",
+        title: "Pre-trained CNN Dog Breed Classifier",
+        description: "A sophisticated dog breed classification system that leverages three state-of-the-art CNN " +
+            "architectures (VGG, ResNet, AlexNet). The project achieves up to 100% accuracy in dog detection and " +
+            "93.3% in breed classification using VGG, demonstrating effective use of transfer learning for precise " +
+            "image classification.",
+        stack: [
+            { name: "PyTorch" },
+            { name: "VGG" },
+            { name: "ResNet" },
+            { name: "AlexNet" },
+            { name: "Python" },
+            { name: "PIL" }
+        ],
+        image: '/assets/work/thumb3.png',
+        github: "https://github.com/levisstrauss/Dog_breed_identification"
     }
 ]
 
