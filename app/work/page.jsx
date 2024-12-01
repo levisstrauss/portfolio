@@ -30,7 +30,7 @@ const projects = [
         num: "02",
         category: "Deep Learning",
         title: "EfficientNet Flower Classification",
-        description: "An advanced flower classification system using EfficientNet-B0 leverages transfer learning and compound scaling for high accuracy and efficiency. Fine-tuned on a custom flower dataset, it excels in species identification, showcasing modern CNNs in real-world image classification.",
+        description: "An advanced flower classification system using EfficientNet-B0 leverages transfer learning for high accuracy and efficiency. Fine-tuned on a custom dataset, it excels in species identification, showcasing modern CNNs in action.",
         stack: [
             { name: "PyTorch" },
             { name: "EfficientNet-B0"},
@@ -45,10 +45,7 @@ const projects = [
         num: "03",
         category: "Deep Learning",
         title: "Pre-trained CNN Dog Breed Classifier",
-        description: "A sophisticated dog breed classification system that leverages three state-of-the-art CNN " +
-            "architectures (VGG, ResNet, AlexNet). The project achieves up to 100% accuracy in dog detection and " +
-            "93.3% in breed classification using VGG, demonstrating effective use of transfer learning for precise " +
-            "image classification.",
+        description: "A sophisticated dog breed classification system utilizing VGG, ResNet, and AlexNet achieves 100% dog detection accuracy and 93.3% breed classification with VGG. The project highlights effective transfer learning for precise image classification.",
         stack: [
             { name: "PyTorch" },
             { name: "VGG" },
