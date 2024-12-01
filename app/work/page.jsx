@@ -38,7 +38,7 @@ const projects = [
             { name: "Python" },
             { name: "Matplotlib"},
         ],
-        image: '/assets/work/thumb2.png',
+        image: '/assets/work/thumb2.webp',
         github: "https://github.com/levisstrauss/flower_classification",
     }
 ]
