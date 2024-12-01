@@ -30,7 +30,7 @@ const projects = [
         num: "02",
         category: "Deep Learning",
         title: "EfficientNet Flower Classification",
-        description: "An advanced flower classification system implementing transfer learning with the EfficientNet-B0 architecture. The model leverages EfficientNet's compound scaling method to achieve superior accuracy while maintaining computational efficiency. Fine-tuned on a custom flower dataset, the system demonstrates state-of-the-art performance in species identification while requiring minimal computational resources. The project showcases practical applications of modern CNN architectures in real-world image classification tasks.",
+        description: "An advanced flower classification system using EfficientNet-B0 leverages transfer learning and compound scaling for high accuracy and efficiency. Fine-tuned on a custom flower dataset, it excels in species identification, showcasing modern CNNs in real-world image classification.",
         stack: [
             { name: "PyTorch" },
             { name: "EfficientNet-B0"},
