@@ -100,8 +100,8 @@ portfolio/
 
 For questions or feedback, reach out through:
 - Website: [codemon.io](https://codemon.io)
-- Email: [your@email.com](mailto:zcoulibalyeng@gmail.com)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/codemon)
+- Email: [Email](mailto:zcoulibalyeng@gmail.com)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/codemon)
 
 
 ## 💡 Future Enhancements
