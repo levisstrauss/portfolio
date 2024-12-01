@@ -21,7 +21,6 @@ const projects = [
             { name: "Next.js" },
             { name: "Tailwind CSS" },
             { name: "Framer Motion" },
-            { name: "EmailJS"},
         ],
         image: '/assets/work/thumb1.png',
         live: "https://codemon.io/",
@@ -39,6 +38,7 @@ const projects = [
             { name: "Matplotlib"},
         ],
         image: '/assets/work/thumb2.png',
+        live: "",
         github: "https://github.com/levisstrauss/flower_classification",
     }
 ]
