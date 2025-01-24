@@ -72,7 +72,7 @@ const projects = [
    ],
    image: '/assets/work/thumb4.png',
    live: "https://huggingface.co/spaces/Codemon/maskguard",
-   github: "https://github.com/levisstrauss/face-mask-detection"
+   github: "https://github.com/levisstrauss/face_mask_detection"
 }
 ]
 
