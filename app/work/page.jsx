@@ -57,7 +57,23 @@ const projects = [
         image: '/assets/work/thumb3.png',
         live: "",
         github: "https://github.com/levisstrauss/Dog_breed_identification"
-    }
+    },
+    {
+   num: "04",
+   category: "Deep Learning",
+   title: "MaskGuard - Face Mask Detection",
+   description: "A face mask detection system using ResNet18 achieves 98.2% accuracy with fast 0.12s inference time. Features custom model head architecture and Gradio UI for interactive detection.",
+   stack: [
+       { name: "PyTorch" },
+       { name: "ResNet18" },
+       { name: "Gradio" },
+       { name: "Python" },
+       { name: "Torchvision" }
+   ],
+   image: '/assets/work/thumb4.png',
+   live: "https://huggingface.co/spaces/Codemon/maskguard",
+   github: "https://github.com/levisstrauss/face-mask-detection"
+}
 ]
 
 
