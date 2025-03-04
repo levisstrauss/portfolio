@@ -1,3 +1,3 @@
 
 
-![Screenshot](/public/imgs.png)
+![Screenshot](/public/screenshot.png)
