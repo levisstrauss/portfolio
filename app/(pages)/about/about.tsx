@@ -1,125 +1,7 @@
 "use client";
-import { useState } from 'react';
 import Image from 'next/image';
 import Section from '@/app/components/section';
 import { motion } from 'framer-motion';
-
-
-// const About =  () => {
-//     const [isHovered, setIsHovered] = useState(false);
-//     return (
-//         <Section
-//             id="about"
-//             title="About Me"
-//             subtitle="Bridging the gap between Software Engineering and AI/ML"
-//             bgColor="bg-gradient-to-b from-white to-gray-100"
-//         >
-//             <div className="bg-white p-3 rounded-xl shadow-sm border border-gray-100 transition-all duration-500 hover:shadow-lg">
-//                 <div className="flex flex-col lg:flex-row gap-12 items-center lg:items-start">
-//                     {/* Profile Image */}
-//                     <div className="lg:w-1/3 flex justify-center">
-//                         <div
-//                             className="relative w-64 h-64 md:w-72 md:h-72 overflow-hidden rounded-full shadow-xl
-//                                        transform transition-all duration-500 hover:scale-105 mt-20"
-//                             onMouseEnter={() => setIsHovered(true)}
-//                             onMouseLeave={() => setIsHovered(false)}
-//                         >
-//                             <Image
-//                                 src="/profile.webp"
-//                                 fill
-//                                 alt="Zakaria Coulibaly"
-//                                 className="object-cover transition-transform duration-700 ease-in-out"
-//                                 style={{ transform: isHovered ? 'scale(1.05)' : 'scale(1)' }}
-//                                 sizes="(max-width: 768px) 100vw, 288px"
-//                             />
-//                             <div
-//                                 className={`absolute inset-0 bg-indigo-600 mix-blend-overlay opacity-20 transition-opacity duration-500 ${
-//                                     isHovered ? 'opacity-30' : 'opacity-20'
-//                                 }`}
-//                             />
-//                         </div>
-//                     </div>
-//
-//                     {/* Bio Content */}
-//                     <div className="lg:w-2/3 space-y-4">
-//                         <h3 className="text-2xl font-bold text-gray-800 hidden lg:block">My Journey</h3>
-//
-//                         <p className="text-gray-700 leading-relaxed text-lg">
-//                             I&apos;m a passionate professional with expertise in artificial intelligence. My journey
-//                             with an interest in the fascinating world of machine learning and AI. As a new graduate,
-//                             I&apos;m excited to break into this dynamic field and apply my knowledge to real-world challenges.
-//                         </p>
-//
-//                         <p className="text-gray-700 leading-relaxed text-lg">
-//                             With a strong foundation in computer science fundamentals and academic experience in
-//                             machine learning concepts, I&apos;m eager to apply my knowledge to build intelligent
-//                             applications. I&apos;m particularly interested in how AI can enhance user experiences
-//                             and solve real-world problems.
-//                         </p>
-//
-//                         {/* Focus Areas */}
-//                         <div className="pt-4">
-//                             <h3 className="text-xl font-bold text-gray-800 mb-2 flex items-center">
-//                                 <span className="w-8 h-8 inline-flex items-center justify-center bg-indigo-600 text-white rounded-full mr-2">
-//                                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-//                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-//                                   </svg>
-//                                 </span>
-//                                 My Focus Areas
-//                             </h3>
-//
-//                             <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
-//                                 <FocusCard
-//                                     title="Artificial Intelligence"
-//                                     description="Developing intelligent systems using cutting-edge machine learning and deep learning"
-//                                     skills={['PyTorch', 'TensorFlow', 'NLP', 'AI/ML', 'Computer Vision', 'Generative AI', 'Data Analyst', 'Deep Learning']}
-//                                 />
-//                             </div>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
-//
-//             {/* Availability Banner */}
-//             <div className="mt-12 max-w-4xl mx-auto bg-indigo-600 bg-opacity-10 rounded-xl p-6 border border-indigo-200">
-//                 <div className="flex items-center space-x-4">
-//                     <div className="rounded-full bg-indigo-600 p-3">
-//                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-//                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-//                         </svg>
-//                     </div>
-//                     <div>
-//                         <h4 className="font-semibold text-gray-900">Available for new opportunities</h4>
-//                         <p className="text-gray-600">Looking for challenging projects that combine software engineering and AI expertise</p>
-//                     </div>
-//                 </div>
-//             </div>
-//         </Section>
-//     );
-// };
-//
-// interface FocusCardProps {
-//     title: string;
-//     description: string;
-//     skills: string[];
-// }
-//
-// const FocusCard = ({ title, description, skills }: FocusCardProps) => (
-//     <div className="bg-gray-50 rounded-lg p-5 shadow-md border-l-4 border-indigo-600 hover:shadow-lg transition-all duration-300">
-//         <h4 className="font-semibold text-indigo-600 text-lg mb-2">{title}</h4>
-//         <p className="text-gray-600">{description}</p>
-//         <div className="flex flex-wrap gap-2 mt-3">
-//             {skills.map(skill => (
-//                 <span key={skill} className="px-2 py-1 bg-indigo-100 text-indigo-800 text-xs rounded-full">
-//           {skill}
-//         </span>
-//             ))}
-//         </div>
-//     </div>
-// );
-//
-// export default About;
-
 
 const About = () => {
     return (
@@ -152,7 +34,8 @@ const About = () => {
                                         ease: "easeInOut"
                                     }
                                 }}
-                                className="w-full h-full overflow-hidden rounded-full shadow-xl transform transition-all duration-500 hover:scale-105"
+                                className="w-full h-full overflow-hidden rounded-full shadow-xl transform
+                                transition-all duration-500 hover:scale-105"
                             >
                                 <Image
                                     src="/profile.webp"
@@ -229,9 +112,10 @@ const About = () => {
                         <h3 className="text-2xl font-bold text-gray-800 hidden lg:block">My Journey</h3>
 
                         <p className="text-gray-700 leading-relaxed text-lg">
-                            I&apos;m a passionate professional with expertise in artificial intelligence. My journey
-                            with an interest in the fascinating world of machine learning and AI. As a new graduate,
-                            I&apos;m excited to break into this dynamic field and apply my knowledge to real-world challenges.
+                            I&apos;m a passionate professional with expertise spanning both traditional
+                            software development and artificial intelligence.
+                            My journey began with full-stack web development and evolved into the fascinating
+                            world of machine learning and AI.
                         </p>
 
                         <p className="text-gray-700 leading-relaxed text-lg">
@@ -256,7 +140,15 @@ const About = () => {
                                 <FocusCard
                                     title="Artificial Intelligence"
                                     description="Developing intelligent systems using cutting-edge machine learning and deep learning"
-                                    skills={['PyTorch', 'TensorFlow', 'NLP', 'AI/ML', 'Computer Vision', 'Generative AI', 'Data Analyst', 'Deep Learning']}
+                                    skills={[
+                                        'Generative AI & Deep Learning',
+                                        'AI/ML',
+                                        'Software Development',
+                                        'MLOps & System Design',
+                                        'System Design',
+                                        'Cloud Architecture (AWS)',
+                                        'Data Analyst'
+                                    ]}
                                 />
                             </div>
                         </div>

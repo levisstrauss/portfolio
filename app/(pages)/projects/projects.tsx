@@ -8,10 +8,9 @@ import {AnimatePresence, motion} from "framer-motion";
 const Projects = () => {
     // State for active filter
     const [activeFilter, setActiveFilter] = useState('All');
-
     // Filter options
     const filters =
-        ['All', 'Machine Learning','Deep Learning', 'Transfer Learning', 'Computer Vision', 'Generative AI', 'NLP', 'Data Analyst' ];
+        ['All', 'AI/ML', 'Software Engineering',  'Generative AI', 'Data Analyst' ];
 
     // Filter projects based on active filter
     const filteredProjects = activeFilter === 'All'

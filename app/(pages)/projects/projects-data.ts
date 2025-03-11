@@ -9,7 +9,7 @@ export const projectsData: ProjectType[] = [
             'for high accuracy and efficiency. Fine-tuned on a custom dataset, it excels in species identification, ' +
             'showcasing modern CNNs in action.',
         image: "/projects/flower.webp",
-        category: 'Transfer Learning',
+        category: 'AI/ML',
         technologies: ['PyTorch', 'EfficientNet-B0', 'Python', 'Matplotlib'],
         links: {
             demo: 'https://example.com/demo',
@@ -24,7 +24,7 @@ export const projectsData: ProjectType[] = [
             'dog detection accuracy and 93.3% breed classification with VGG. The project highlights effective transfer ' +
             'learning for precise image classification.',
         image: "/projects/dog_breed.webp",
-        category: 'Transfer Learning',
+        category: 'AI/ML',
         technologies: ['PyTorch', 'VGG', 'ResNet', 'AlexNet', 'Python', 'PIL'],
         links: {
             demo: 'https://example.com/demo',
@@ -38,7 +38,7 @@ export const projectsData: ProjectType[] = [
         description: 'A face mask detection system using ResNet18 achieves 98.2% accuracy with fast 0.12s ' +
             'inference time. Features custom model head architecture and Gradio UI for interactive detection.',
         image: "/projects/face_mask.webp",
-        category: 'Transfer Learning',
+        category: 'AI/ML',
         technologies: ['PyTorch', 'ResNet18', 'Gradio', 'Python', 'Torchvision'],
         links: {
             demo: 'https://huggingface.co/spaces/Codemon/maskguard',

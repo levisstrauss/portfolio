@@ -21,11 +21,18 @@ const About = dynamic(() => import('@/app/(pages)/about/about'), {
     ssr: true // Pre-render this component on the server for faster initial load
 });
 
+// Experience section - relatively high priority
+const Experience = dynamic(() => import('@/app/(pages)/experience/experience'), {
+    ssr: true // Also pre-render this component for better SEO and initial load
+});
+
 // Secondary content (below the fold)
 const Skills = dynamic(() => import('@/app/(pages)/skills/skills'));
 const Education = dynamic(() => import('@/app/(pages)/education/education'));
 const Certificates = dynamic(() => import('@/app/(pages)/certificates/certificates'));
 const Projects = dynamic(() => import('@/app/(pages)/projects/projects'));
+const OpenSource = dynamic(() => import('@/app/(pages)/open-source/open-source'));
+const Blog = dynamic(() => import('@/app/(pages)/blog/blog'));
 const Contact = dynamic(() => import('@/app/(pages)/contact/contact'));
 
 
@@ -34,6 +41,7 @@ export default function Home() {
         <>
             {/* Priority content - fewer loading states */}
             <About />
+            <Experience />
 
             {/* Group related content in a single Suspense boundary */}
             <Suspense fallback={<SectionLoader name="Professional Info" />}>
@@ -47,9 +55,16 @@ export default function Home() {
                 <Projects />
             </Suspense>
 
+            {/* Open Source and Blog sections */}
+            {/*<Suspense fallback={<SectionLoader name="Contributions" />}>*/}
+            {/*    <OpenSource />*/}
+            {/*    <Blog />*/}
+            {/*</Suspense>*/}
+
             <Suspense fallback={<SectionLoader name="Contact" />}>
                 <Contact />
             </Suspense>
         </>
+
     );
 }

@@ -5,7 +5,7 @@ export interface ProjectType {
     title: string;
     description: string;
     image?: string;
-    category: 'Machine Learning' | 'Deep Learning' | 'Transfer Learning' | 'Computer Vision' | 'Generative AI' | 'NLP';
+    category: 'AI/ML' | 'Software Engineering' | 'Generative AI' | 'Data Analyst';
     technologies?: string[];
     links?: {
         demo?: string;

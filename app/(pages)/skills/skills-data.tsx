@@ -1,4 +1,4 @@
-import { Brain, Code, Database, GitBranch, Zap } from "lucide-react";
+import {Brain, Code, Database, GitBranch, Laptop, Zap} from "lucide-react";
 import { SkillCategory } from './skills-types';
 
 // Skills data
@@ -12,6 +12,17 @@ export const skillCategories: SkillCategory[] = [
             { name: "Java", level: 90, projects: 1 },
             { name: "C/C++", level: 85, projects: 2 },
             { name: "Javascript/Typescript", level: 75, projects: 4 },
+        ]
+    },
+    {
+        title: "Software Development",
+        icon: <Laptop className="w-4 h-4 text-indigo-600" />,
+        description: "Web & application development",
+        skills: [
+            { name: "React", level: 85, projects: 3 },
+            { name: "Node.js", level: 80, projects: 2 },
+            { name: "Next.js", level: 82, projects: 2 },
+            { name: "RESTful APIs", level: 88, projects: 3 }
         ]
     },
     {

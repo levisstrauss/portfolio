@@ -2,23 +2,27 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { User, Award, Code, Briefcase, Mail, Menu, X, FileText } from 'lucide-react';
+import {User, Award, Code, Briefcase, Mail, Menu, X, FileText, FolderOpen, GitFork, BookOpen} from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('');
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isOverBanner, setIsOverBanner] = useState(true);
     const pathname = usePathname();
     const isHomePage = pathname === '/';
 
     // Navigation items
     const navItems = [
         { name: 'About', href: isHomePage ? '#about' : '/#about', icon: <User className="w-4 h-4" /> },
+        { name: 'Experience', href: isHomePage ? '#experience' : '/#experience', icon: <Briefcase className="w-4 h-4" /> },
         { name: 'Skills', href: isHomePage ? '#skills' : '/#skills', icon: <Code className="w-4 h-4" /> },
+        { name: 'Projects', href: isHomePage ? '#projects' : '/#projects', icon: <FolderOpen className="w-4 h-4" /> },
+        { name: 'Open Source', href: isHomePage ? '#open-source' : '/#open-source', icon: <GitFork className="w-4 h-4" /> },
+        { name: 'Blog', href: isHomePage ? '#blog' : '/#blog', icon: <BookOpen className="w-4 h-4" /> },
         { name: 'Education', href: isHomePage ? '#education' : '/#education', icon: <Award className="w-4 h-4" /> },
         { name: 'Certificates', href: isHomePage ? '#certificates' : '/#certificates', icon: <FileText className="w-4 h-4" /> },
-        { name: 'Projects', href: isHomePage ? '#projects' : '/#projects', icon: <Briefcase className="w-4 h-4" /> },
         { name: 'Contact', href: isHomePage ? '#contact' : '/#contact', icon: <Mail className="w-4 h-4" /> },
     ];
 
@@ -29,7 +33,12 @@ const Navigation = () => {
             const bannerHeight = bannerElement ? bannerElement.offsetHeight : 0;
 
             // Now check if we've scrolled past the banner
-            setIsScrolled(window.scrollY > bannerHeight);
+            const scrollPosition = window.scrollY;
+            setIsScrolled(scrollPosition > bannerHeight);
+
+            // Check if we're still over the banner (but not at the very top)
+            // This helps determine when to add the semi-transparent background
+            setIsOverBanner(scrollPosition > 0 && scrollPosition < bannerHeight);
 
             if (isHomePage) {
                 // Detect an active section based on scroll position
@@ -41,7 +50,7 @@ const Navigation = () => {
                     const sectionTop = section.offsetTop - 100;
                     // @ts-ignore
                     const sectionHeight = section.offsetHeight;
-                    if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
                         currentSection = `#${section.id}`;
                     }
                 });
@@ -65,7 +74,9 @@ const Navigation = () => {
                 className={`fixed top-0 left-0 right-0 z-30 transition-all duration-300 ${
                     isScrolled
                         ? 'bg-white shadow-md py-3'
-                        : 'bg-transparent py-5'
+                        : isOverBanner
+                            ? 'bg-black/30 backdrop-blur-sm py-5'
+                            : 'bg-transparent py-5'
                 }`}
             >
                 <div className="container mx-auto px-6">
@@ -136,6 +147,7 @@ const Navigation = () => {
                 </div>
             </nav>
 
+            {/* Rest of your mobile menu code remains the same */}
             {/* Mobile Navigation Menu */}
             <motion.div
                 className="fixed inset-0 z-40 bg-white md:hidden"
@@ -147,6 +159,7 @@ const Navigation = () => {
                     stiffness: 300
                 }}
             >
+                {/* Mobile menu content (unchanged) */}
                 <div className="flex flex-col h-full">
                     <div className="flex justify-between items-center px-6 py-4 border-b">
                         <span className="text-xl font-bold text-gray-900">Menu</span>
