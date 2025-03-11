@@ -113,7 +113,7 @@ const About = () => {
 
                         <p className="text-gray-700 leading-relaxed text-lg">
                             I&apos;m a passionate professional with expertise spanning both traditional
-                            software development and artificial intelligence.
+                            software development and AI/ML.
                             My journey began with full-stack web development and evolved into the fascinating
                             world of machine learning and AI.
                         </p>
