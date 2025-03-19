@@ -1,11 +1,10 @@
 import {JSX} from "react";
-
 export interface ProjectType {
     id: number;
     title: string;
     description: string;
     image?: string;
-    category: 'AI/ML' | 'Software Engineering' | 'Generative AI' | 'Data Analyst';
+    category: 'Computer Vision' | 'NLP' | 'Deep Learning' | 'MLOps' | 'Generative AI' | 'Software Engineering' | 'Data Science';
     technologies?: string[];
     links?: {
         demo?: string;

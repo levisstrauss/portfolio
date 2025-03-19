@@ -17,10 +17,10 @@ const Navigation = () => {
     const navItems = [
         { name: 'About', href: isHomePage ? '#about' : '/#about', icon: <User className="w-4 h-4" /> },
         { name: 'Experience', href: isHomePage ? '#experience' : '/#experience', icon: <Briefcase className="w-4 h-4" /> },
-        { name: 'Skills', href: isHomePage ? '#skills' : '/#skills', icon: <Code className="w-4 h-4" /> },
         { name: 'Projects', href: isHomePage ? '#projects' : '/#projects', icon: <FolderOpen className="w-4 h-4" /> },
-        { name: 'Open Source', href: isHomePage ? '#open-source' : '/#open-source', icon: <GitFork className="w-4 h-4" /> },
-        { name: 'Blog', href: isHomePage ? '#blog' : '/#blog', icon: <BookOpen className="w-4 h-4" /> },
+        { name: 'Skills', href: isHomePage ? '#skills' : '/#skills', icon: <Code className="w-4 h-4" /> },
+        // { name: 'Open Source', href: isHomePage ? '#open-source' : '/#open-source', icon: <GitFork className="w-4 h-4" /> },
+        // { name: 'Blog', href: isHomePage ? '#blog' : '/#blog', icon: <BookOpen className="w-4 h-4" /> },
         { name: 'Education', href: isHomePage ? '#education' : '/#education', icon: <Award className="w-4 h-4" /> },
         { name: 'Certificates', href: isHomePage ? '#certificates' : '/#certificates', icon: <FileText className="w-4 h-4" /> },
         { name: 'Contact', href: isHomePage ? '#contact' : '/#contact', icon: <Mail className="w-4 h-4" /> },
@@ -146,8 +146,6 @@ const Navigation = () => {
                     </div>
                 </div>
             </nav>
-
-            {/* Rest of your mobile menu code remains the same */}
             {/* Mobile Navigation Menu */}
             <motion.div
                 className="fixed inset-0 z-40 bg-white md:hidden"
@@ -159,7 +157,7 @@ const Navigation = () => {
                     stiffness: 300
                 }}
             >
-                {/* Mobile menu content (unchanged) */}
+                {/* Mobile menu content */}
                 <div className="flex flex-col h-full">
                     <div className="flex justify-between items-center px-6 py-4 border-b">
                         <span className="text-xl font-bold text-gray-900">Menu</span>

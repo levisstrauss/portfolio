@@ -10,7 +10,7 @@ const quickLinks = [
 
 const socialLinks = [
     { name: 'GitHub', url: 'https://github.com/levisstrauss' },
-    { name: 'LinkedIn', url: 'www.linkedin.com/in/codemon' },
+    { name: 'LinkedIn', url: 'https://linkedin.com/in/codemon' },
     { name: 'Twitter', url: 'https://x.com/codemon2024' },
     { name: 'YouTube', url: '' }
 ];
@@ -71,14 +71,14 @@ const Footer = () => {
                                     zcoulibalyeng@gmail.com
                                 </Link>
                             </p>
-                            <p>
-                                <Link
-                                    href="tel:+12155359838"
-                                    className="hover:text-white transition-colors duration-300"
-                                >
-                                    +1 215-535-9838
-                                </Link>
-                            </p>
+                            {/*<p>*/}
+                            {/*    <Link*/}
+                            {/*        href="tel:+12155359838"*/}
+                            {/*        className="hover:text-white transition-colors duration-300"*/}
+                            {/*    >*/}
+                            {/*        +1 215-535-9838*/}
+                            {/*    </Link>*/}
+                            {/*</p>*/}
                         </address>
                     </div>
                 </div>

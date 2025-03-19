@@ -1,72 +1,72 @@
 import {Brain, Code, Database, GitBranch, Laptop, Zap} from "lucide-react";
 import { SkillCategory } from './skills-types';
 
-// Skills data
+
 export const skillCategories: SkillCategory[] = [
     {
-        title: "Programming Languages",
-        icon: <Code className="w-4 h-4 text-indigo-600" />,
-        description: "Core programming languages",
-        skills: [
-            { name: "Python", level: 95, projects: 2 },
-            { name: "Java", level: 90, projects: 1 },
-            { name: "C/C++", level: 85, projects: 2 },
-            { name: "Javascript/Typescript", level: 75, projects: 4 },
-        ]
-    },
-    {
-        title: "Software Development",
-        icon: <Laptop className="w-4 h-4 text-indigo-600" />,
-        description: "Web & application development",
-        skills: [
-            { name: "React", level: 85, projects: 3 },
-            { name: "Node.js", level: 80, projects: 2 },
-            { name: "Next.js", level: 82, projects: 2 },
-            { name: "RESTful APIs", level: 88, projects: 3 }
-        ]
-    },
-    {
-        title: "ML/AI Frameworks",
+        title: "ML Engineering Core",
         icon: <Brain className="w-4 h-4 text-indigo-600" />,
-        description: "ML and deep learning",
+        description: "Machine learning frameworks & techniques",
         skills: [
             { name: "PyTorch", level: 90, projects: 3 },
             { name: "TensorFlow", level: 87, projects: 3 },
             { name: "Scikit-learn", level: 90, projects: 3 },
-            { name: "Keras", level: 85, projects: 1 }
+            { name: "Computer Vision", level: 88, projects: 2 }
         ]
     },
     {
-        title: "Data Processing",
+        title: "ML Specializations",
+        icon: <Zap className="w-4 h-4 text-indigo-600" />,
+        description: "Specialized ML domains",
+        skills: [
+            { name: "NLP", level: 85, projects: 2 },
+            { name: "Transformers", level: 83, projects: 2 },
+            { name: "Deep Learning", level: 87, projects: 3 },
+            { name: "Model Optimization", level: 82, projects: 2 }
+        ]
+    },
+    {
+        title: "MLOps & Deployment",
+        icon: <GitBranch className="w-4 h-4 text-indigo-600" />,
+        description: "ML systems engineering",
+        skills: [
+            { name: "Docker", level: 90, projects: 1 },
+            { name: "Kubernetes", level: 85, projects: 1 },
+            { name: "AWS SageMaker", level: 80, projects: 2 },
+            { name: "Model Serving", level: 82, projects: 1 }
+        ]
+    },
+    {
+        title: "Data Engineering",
         icon: <Database className="w-4 h-4 text-indigo-600" />,
-        description: "Data tools",
+        description: "Data processing & analysis",
         skills: [
             { name: "Pandas", level: 95, projects: 3 },
             { name: "NumPy", level: 90, projects: 3 },
-            { name: "SQL", level: 80, projects: 3 },
+            { name: "Data Pipelines", level: 85, projects: 2 },
             { name: "PySpark", level: 75, projects: 1 }
         ]
     },
     {
-        title: "DevOps",
-        icon: <GitBranch className="w-4 h-4 text-indigo-600" />,
-        description: "DevOps & CI/CD",
+        title: "Programming",
+        icon: <Code className="w-4 h-4 text-indigo-600" />,
+        description: "Development languages",
         skills: [
-            { name: "Docker", level: 90, projects: 1 },
-            { name: "Kubernetes", level: 85, projects: 1 },
-            { name: "CI/CD", level: 85, projects: 1 },
-            { name: "AWS", level: 80, projects: 2 }
+            { name: "Python", level: 95, projects: 2 },
+            { name: "C++", level: 85, projects: 2 },
+            { name: "SQL", level: 80, projects: 3 },
+            { name: "FastAPI", level: 88, projects: 3 }
         ]
     },
     {
-        title: "Tools & Utilities",
-        icon: <Zap className="w-4 h-4 text-indigo-600" />,
-        description: "Development tools",
+        title: "Research & Experimentation",
+        icon: <Laptop className="w-4 h-4 text-indigo-600" />,
+        description: "ML research tools",
         skills: [
-            { name: "Git", level: 95, projects: 8 },
+            { name: "Weights & Biases", level: 85, projects: 2 },
             { name: "Jupyter", level: 90, projects: 8 },
-            { name: "VS Code", level: 90, projects: 10 },
-            { name: "Linux", level: 85, projects: 2 }
+            { name: "Experiment Tracking", level: 85, projects: 3 },
+            { name: "Research Papers", level: 80, projects: 2 }
         ]
     }
 ];

@@ -6,17 +6,17 @@ import { motion } from 'framer-motion';
 const Experience = () => {
     const experiences = [
         {
-            title: "Software Engineer & ML Specialist",
+            title: "AI/ML Engineer",
             company: "Open to Opportunities",
-            location: "Remote / In person / Relocation",
-            period: "Currently Available",
+            location: "Remote / Hybrid / On-site",
+            period: "Available Immediately",
             achievements: [
-                "Actively developing full-stack web applications with React and Node.js for portfolio showcase",
-                "Building ML projects focusing on computer vision and NLP using PyTorch and TensorFlow",
-                "Participating in online hackathons and collaborative coding challenges to strengthen problem-solving skills"
+                "Developing production-ready ML systems with PyTorch and TensorFlow, focusing on computer vision and NLP applications",
+                "Implementing end-to-end ML pipelines including data preprocessing, model training, evaluation, and deployment",
+                "Optimizing model performance and addressing challenges in model latency and scalability"
             ],
-            skills: ["Python", "JavaScript", "React", "PyTorch", "TensorFlow", "Git"],
-            type: "Full-time / Contract"
+            skills: ["Python", "PyTorch", "TensorFlow", "Computer Vision", "NLP", "MLOps", "Docker", "Git", "Cloud ML Services", "Neural Networks", "Data Preprocessing"],
+            type: "Full-time"
         }
 
     ];

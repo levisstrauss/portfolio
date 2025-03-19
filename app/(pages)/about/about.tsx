@@ -8,7 +8,7 @@ const About = () => {
         <Section
             id="about"
             title="About Me"
-            subtitle="Bridging the gap between Software Engineering and AI/ML"
+            subtitle="AI/ML Engineer specializing in production-ready machine learning systems"
             bgColor="bg-gradient-to-b from-white to-gray-100"
         >
             <div className="bg-white p-3 rounded-xl shadow-sm border border-gray-100 transition-all duration-500 hover:shadow-lg">
@@ -110,19 +110,17 @@ const About = () => {
                     {/* Bio Content */}
                     <div className="lg:w-2/3 space-y-4">
                         <h3 className="text-2xl font-bold text-gray-800 hidden lg:block">My Journey</h3>
-
                         <p className="text-gray-700 leading-relaxed text-lg">
-                            I&apos;m a passionate professional with expertise spanning both traditional
-                            software development and AI/ML.
-                            My journey began with full-stack web development and evolved into the fascinating
-                            world of machine learning and AI.
+                            I&apos;m an AI/ML Engineer with a strong software engineering background, specializing in developing
+                            production-ready machine learning systems. My technical foundation in computer vision and NLP
+                            is complemented by hands-on experience with PyTorch and TensorFlow frameworks.
                         </p>
 
                         <p className="text-gray-700 leading-relaxed text-lg">
-                            With a strong foundation in computer science fundamentals and academic experience in
-                            machine learning concepts, I&apos;m eager to apply my knowledge to build intelligent
-                            applications. I&apos;m particularly interested in how AI can enhance user experiences
-                            and solve real-world problems.
+                            My approach combines rigorous software engineering practices with ML expertise to build
+                            scalable, deployable AI solutions. I excel at optimizing model performance, implementing
+                            end-to-end ML pipelines, and addressing real-world challenges in model deployment
+                            and monitoring. I'm focused on creating AI systems that deliver measurable business impact.
                         </p>
 
                         {/* Focus Areas */}
@@ -133,21 +131,21 @@ const About = () => {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                                   </svg>
                                 </span>
-                                My Focus Areas
+                                Technical Specializations
                             </h3>
 
                             <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
                                 <FocusCard
-                                    title="Artificial Intelligence"
-                                    description="Developing intelligent systems using cutting-edge machine learning and deep learning"
+                                    title="AI/ML Engineering"
+                                    description="Building production-ready machine learning systems with a focus on scalability and business impact"
                                     skills={[
-                                        'Generative AI & Deep Learning',
-                                        'AI/ML',
-                                        'Software Development',
-                                        'MLOps & System Design',
-                                        'System Design',
-                                        'Cloud Architecture (AWS)',
-                                        'Data Analyst'
+                                        'Computer Vision & NLP',
+                                        'Deep Learning Model Architecture',
+                                        'PyTorch & TensorFlow',
+                                        'MLOps & Model Deployment',
+                                        'Distributed Training & Optimization',
+                                        'Cloud ML Infrastructure (AWS SageMaker)',
+                                        'Data Pipeline Engineering'
                                     ]}
                                 />
                             </div>
@@ -165,8 +163,8 @@ const About = () => {
                         </svg>
                     </div>
                     <div>
-                        <h4 className="font-semibold text-gray-900">Available for new opportunities</h4>
-                        <p className="text-gray-600">Looking for challenging projects that combine software engineering and AI expertise</p>
+                        <h4 className="font-semibold text-gray-900">Available for ML Engineering Roles</h4>
+                        <p className="text-gray-600">Specialized in building production-ready computer vision and NLP systems with PyTorch and TensorFlow</p>
                     </div>
                 </div>
             </div>

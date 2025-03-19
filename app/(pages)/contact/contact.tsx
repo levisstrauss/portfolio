@@ -59,7 +59,7 @@ const Contact = () => {
         <Section
             id="contact"
             title="Get In Touch"
-            subtitle="Call | Connect with me through these channels"
+            subtitle="Connect with me through these channels"
             bgColor="bg-gradient-to-b from-gray-100 to-white"
         >
             <div className="flex flex-col items-center">

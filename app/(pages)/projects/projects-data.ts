@@ -5,12 +5,12 @@ export const projectsData: ProjectType[] = [
     {
         id: 1,
         title: 'Advanced Flower Classification System',
-        description: 'An advanced flower classification system using EfficientNet-B0 leverages transfer learning ' +
+        description: 'An advanced flower classification system using EfficientNet-B0 leveraging transfer learning ' +
             'for high accuracy and efficiency. Fine-tuned on a custom dataset, it excels in species identification, ' +
             'showcasing modern CNNs in action.',
         image: "/projects/flower.webp",
-        category: 'AI/ML',
-        technologies: ['PyTorch', 'EfficientNet-B0', 'Python', 'Matplotlib'],
+        category: 'Computer Vision',
+        technologies: ['PyTorch', 'EfficientNet-B0', 'Transfer Learning', 'CNN'],
         links: {
             demo: 'https://example.com/demo',
             github: 'https://github.com/levisstrauss/flower_classification',
@@ -19,13 +19,13 @@ export const projectsData: ProjectType[] = [
     },
     {
         id: 2,
-        title: 'Dog Breed Classification System',
-        description: 'A sophisticated dog breed classification system utilizing VGG, ResNet, and AlexNet achieves 100% ' +
-            'dog detection accuracy and 93.3% breed classification with VGG. The project highlights effective transfer ' +
-            'learning for precise image classification.',
+        title: 'Multi-Architecture Dog Breed Classification',
+        description: 'Engineered a high-performance computer vision system comparing VGG, ResNet, and AlexNet architectures. ' +
+            'Achieved 100% dog detection accuracy and 93.3% breed classification precision using an optimized VGG implementation. ' +
+            'Features custom data augmentation and model ensemble techniques to enhance generalization.',
         image: "/projects/dog_breed.webp",
-        category: 'AI/ML',
-        technologies: ['PyTorch', 'VGG', 'ResNet', 'AlexNet', 'Python', 'PIL'],
+        category: 'Computer Vision',
+        technologies: ['PyTorch', 'Transfer Learning', 'Model Ensembles', 'CNN Architecture Design'],
         links: {
             demo: 'https://example.com/demo',
             github: 'https://github.com/levisstrauss/Dog_breed_identification',
@@ -34,12 +34,13 @@ export const projectsData: ProjectType[] = [
     },
     {
         id: 3,
-        title: 'Face Mask Detection System',
-        description: 'A face mask detection system using ResNet18 achieves 98.2% accuracy with fast 0.12s ' +
-            'inference time. Features custom model head architecture and Gradio UI for interactive detection.',
+        title: 'Real-time Face Mask Detection System',
+        description: 'Developed a production-optimized face mask detection system achieving 98.2% accuracy with ' +
+            'ultra-fast 0.12s inference time. Implemented custom model head architecture on ResNet18 backbone, ' +
+            'with deployment to Hugging Face Spaces for real-world accessibility and monitoring.',
         image: "/projects/face_mask.webp",
-        category: 'AI/ML',
-        technologies: ['PyTorch', 'ResNet18', 'Gradio', 'Python', 'Torchvision'],
+        category: 'Computer Vision',
+        technologies: ['PyTorch', 'Model Optimization', 'Transfer Learning', 'Hugging Face Deployment'],
         links: {
             demo: 'https://huggingface.co/spaces/Codemon/maskguard',
             github: 'https://github.com/username/face-mask-detection',

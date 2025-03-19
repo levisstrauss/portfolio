@@ -1,27 +1,30 @@
 import { SocialLink, Tag } from './banner.types';
 import SocialButton from '../banner/social-button';
 import TagBadge from '../banner/tag-badge';
-import { FileDown } from 'lucide-react'; // Import the download icon
+import { FileDown } from 'lucide-react';
 
 const tags: Tag[] = [
-    { id: 'gen-ai-and-deep-learning', label: 'Generative AI & Deep Learning' },
-    { id: 'software-engineering', label: 'Software Development' },
-    { id: 'mlops-and-system-design', label: 'MLOps & System Design' },
-    { id: 'system-design', label: 'System Design' },
-    { id: 'cloud', label: 'Cloud Architecture (AWS)' },
-    { id: 'analyst', label: 'Data Analyst'},
+    { id: 'computer-vision', label: 'Computer Vision' },
+    { id: 'nlp', label: 'Natural Language Processing' },
+    { id: 'deep-learning', label: 'Deep Learning' },
+    { id: 'ml-systems', label: 'ML Systems Engineering' },
+    { id: 'mlops', label: 'MLOps & Deployment' },
+    { id: 'pytorch', label: 'PyTorch' },
+    { id: 'tensorflow', label: 'TensorFlow' },
+    { id: 'aws-ml', label: 'AWS ML Services' },
 ];
 
 const socialLinks: SocialLink[] = [
     { name: 'GitHub', url: 'https://github.com/levisstrauss', icon: 'github' },
-    { name: 'LinkedIn', url: 'www.linkedin.com/in/codemon', icon: 'linkedin' },
+    { name: 'LinkedIn', url: 'https://linkedin.com/in/codemon', icon: 'linkedin' },
     { name: 'Twitter', url: 'https://x.com/codemon2024', icon: 'twitter' },
     { name: 'YouTube', url: '/', icon: 'youtube' }
 ];
 
 const Banner = () => {
     return (
-        <header className="relative bg-gradient-to-r from-indigo-700 to-blue-600 text-white py-24 md:py-32 overflow-hidden">
+        <header className="relative bg-gradient-to-r from-indigo-700 to-blue-600 text-white py-24 md:py-32
+        overflow-hidden">
             {/* Background pattern overlay */}
             <div
                 className="absolute inset-0 opacity-10 z-0"
@@ -40,7 +43,7 @@ const Banner = () => {
 
                     {/* Title with animation */}
                     <p className="text-xl md:text-2xl text-blue-100 mb-8 animate-fade-in delay-200">
-                        An ardent explorer in the realm of Software Engineering and AI/ML
+                        ML Engineer specializing in production-ready AI systems & computer vision
                     </p>
 
                     {/* Skill tags with animation */}

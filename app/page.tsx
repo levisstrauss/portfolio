@@ -27,14 +27,13 @@ const Experience = dynamic(() => import('@/app/(pages)/experience/experience'), 
 });
 
 // Secondary content (below the fold)
+const Projects = dynamic(() => import('@/app/(pages)/projects/projects'));
 const Skills = dynamic(() => import('@/app/(pages)/skills/skills'));
 const Education = dynamic(() => import('@/app/(pages)/education/education'));
 const Certificates = dynamic(() => import('@/app/(pages)/certificates/certificates'));
-const Projects = dynamic(() => import('@/app/(pages)/projects/projects'));
+const Contact = dynamic(() => import('@/app/(pages)/contact/contact'));
 const OpenSource = dynamic(() => import('@/app/(pages)/open-source/open-source'));
 const Blog = dynamic(() => import('@/app/(pages)/blog/blog'));
-const Contact = dynamic(() => import('@/app/(pages)/contact/contact'));
-
 
 export default function Home() {
     return (
@@ -43,18 +42,17 @@ export default function Home() {
             <About />
             <Experience />
 
+            {/* Separate loading for independent sections */}
+            <Suspense fallback={<SectionLoader name="Projects" />}>
+                <Projects />
+            </Suspense>
+
             {/* Group related content in a single Suspense boundary */}
             <Suspense fallback={<SectionLoader name="Professional Info" />}>
                 <Skills />
                 <Education />
                 <Certificates />
             </Suspense>
-
-            {/* Separate loading for independent sections */}
-            <Suspense fallback={<SectionLoader name="Projects" />}>
-                <Projects />
-            </Suspense>
-
             {/* Open Source and Blog sections */}
             {/*<Suspense fallback={<SectionLoader name="Contributions" />}>*/}
             {/*    <OpenSource />*/}
