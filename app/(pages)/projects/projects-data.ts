@@ -33,20 +33,35 @@ export const projectsData: ProjectType[] = [
         }
     },
     {
-        id: 3,
-        title: 'Real-time Face Mask Detection System',
-        description: 'Developed a production-optimized face mask detection system achieving 98.2% accuracy with ' +
-            'ultra-fast 0.12s inference time. Implemented custom model head architecture on ResNet18 backbone, ' +
-            'with deployment to Hugging Face Spaces for real-world accessibility and monitoring.',
-        image: "/projects/face_mask.webp",
+        id: 4,
+        title: 'FoodVision Big: 101-Class Food Classifier',
+        description: 'Built an advanced food classification system capable of identifying 101 different food categories ' +
+            'using a fine-tuned EfficientNetB2 architecture. Achieved remarkable performance with only 5 training epochs ' +
+            'through effective feature extraction and strategic data augmentation, deployed with an interactive Gradio interface.',
+        image: "/projects/food.webp",
         category: 'Computer Vision',
-        technologies: ['PyTorch', 'Model Optimization', 'Transfer Learning', 'Hugging Face Deployment'],
+        technologies: ['PyTorch', 'Transfer Learning', 'EfficientNet', 'Gradio', 'Hugging Face Spaces'],
         links: {
-            demo: 'https://huggingface.co/spaces/Codemon/maskguard',
-            github: 'https://github.com/username/face-mask-detection',
-            moreInfo: '/projects/face-mask-detection'
+            demo: 'https://huggingface.co/spaces/Codemon/foodvision_big',
+            github: 'https://github.com/levisstrauss/food-vision-big',
+            moreInfo: '/projects/foodvision-big'
         }
     }
+    // {
+    //     id: 3,
+    //     title: 'Real-time Face Mask Detection System',
+    //     description: 'Developed a production-optimized face mask detection system achieving 98.2% accuracy with ' +
+    //         'ultra-fast 0.12s inference time. Implemented custom model head architecture on ResNet18 backbone, ' +
+    //         'with deployment to Hugging Face Spaces for real-world accessibility and monitoring.',
+    //     image: "/projects/face_mask.webp",
+    //     category: 'Computer Vision',
+    //     technologies: ['PyTorch', 'Model Optimization', 'Transfer Learning', 'Hugging Face Deployment'],
+    //     links: {
+    //         demo: 'https://huggingface.co/spaces/Codemon/maskguard',
+    //         github: 'https://github.com/username/face-mask-detection',
+    //         moreInfo: '/projects/face-mask-detection'
+    //     }
+    // }
 ];
 
 
