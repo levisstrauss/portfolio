@@ -22,9 +22,11 @@ const Education = () => {
                     {/* Animated background for active tab */}
                     <motion.div
                         className={`absolute top-1.5 bottom-1.5 rounded-lg z-0 ${
-                            educationData[activeIndex].color === 'blue'
-                                ? 'bg-gradient-to-r from-blue-600 to-indigo-600'
-                                : 'bg-gradient-to-r from-teal-600 to-emerald-600'
+                            educationData[activeIndex].color === 'orange'
+                                ? 'bg-gradient-to-r from-orange-600 to-amber-600'
+                                : educationData[activeIndex].color === 'blue'
+                                    ? 'bg-gradient-to-r from-blue-600 to-indigo-600'
+                                    : 'bg-gradient-to-r from-yellow-500 to-amber-500'
                         }`}
                         initial={false}
                         animate={{
@@ -66,7 +68,7 @@ const Education = () => {
             <div className="bg-white rounded-lg shadow-md p-5 transition-all duration-300 hover:shadow-lg mb-2">
                 <div className="flex items-center gap-2 mb-4">
                     <div className="p-1.5 bg-indigo-50 rounded-lg transition-colors">
-                        <GraduationCap className="w-4 h-4 text-indigo-600" />
+                        <GraduationCap className="w-4 h-4 text-indigo-600 " />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 transition-colors">
                         Academic Background

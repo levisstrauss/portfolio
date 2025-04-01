@@ -2,6 +2,37 @@ import {EducationType} from "@/app/(pages)/education/education-types";
 
 
 export const educationData: EducationType[] = [
+
+    {
+        id: 'Masters',
+        degree: 'Masters of Science',
+        specialization: 'Computer Science',
+        institution: 'Illinois Urbana-Champaign',
+        location: 'UIUC, IL',
+        period: '2025 - 2026',
+        color: 'orange',
+        achievements: [
+            { description: 'Minor: Mathematics' },
+            { description: 'Societies: NSLS, UPE, ACM' },
+            { description: 'Dean\'s List for some semesters' }
+        ],
+        courses: [
+            {name:  'Introduction to Programming'},
+            {name:  'Object-Oriented Programming'},
+            {name:  'Discrete Mathematics'},
+            {name:  'Programming Language Concepts'},
+            { name: 'Data Structures & Algorithms' },
+            { name: 'Web Development'},
+            { name: 'Calculus'},
+            { name: 'Linear Algebra'},
+            { name: 'Software Engineering' },
+            { name: 'Database Systems' },
+            { name: 'Operating Systems' },
+            { name: 'Compilers' },
+            { name: 'Probability'}
+        ],
+        projects: ' Led team of 2 to build a precalculus learning mobile applications for helping students to understand math.',
+    },
     {
         id: 'Bachelor',
         degree: 'Bachelor of Science',
@@ -39,7 +70,7 @@ export const educationData: EducationType[] = [
         institution: 'Community College of Philadelphia',
         location: 'Philadelphia, MA',
         period: '2019 - 2021',
-        color: 'teal',
+        color: 'yellow',
         achievements: [
             { description: 'Graduated with Honors' },
             { description: 'Dean\'s List for all semesters' },

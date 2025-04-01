@@ -21,7 +21,7 @@ export interface EducationType {
     institution: string;
     location: string;
     period: string;
-    color: 'blue' | 'teal';
+    color: 'orange' | 'blue' | 'yellow' ;
     achievements: AchievementType[];
     courses: CourseType[];
     projects: string;

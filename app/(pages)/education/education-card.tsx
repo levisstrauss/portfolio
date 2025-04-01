@@ -9,6 +9,14 @@ interface EducationCardProps {
 
 const EducationCard = ({ education, isActive }: EducationCardProps) => {
     const colorClasses = {
+        orange: {
+            gradient: 'from-orange-600 to-amber-600',
+            badge: 'bg-orange-50 text-orange-800 border border-orange-100',
+            icon: 'text-orange-600',
+            highlight: 'border-orange-600',
+            lightBg: 'bg-orange-50',
+            hoverBg: 'hover:bg-orange-50',
+        },
         blue: {
             gradient: 'from-blue-600 to-indigo-600',
             badge: 'bg-blue-50 text-blue-800 border border-blue-100',
@@ -17,14 +25,14 @@ const EducationCard = ({ education, isActive }: EducationCardProps) => {
             lightBg: 'bg-blue-50',
             hoverBg: 'hover:bg-blue-50',
         },
-        teal: {
-            gradient: 'from-teal-600 to-emerald-600',
-            badge: 'bg-teal-50 text-teal-800 border border-teal-100',
-            icon: 'text-teal-600',
-            highlight: 'border-teal-600',
-            lightBg: 'bg-teal-50',
-            hoverBg: 'hover:bg-teal-50',
-        }
+        yellow: {
+            gradient: 'from-yellow-500 to-amber-500',
+            badge: 'bg-yellow-50 text-yellow-800 border border-yellow-100',
+            icon: 'text-yellow-600',
+            highlight: 'border-yellow-600',
+            lightBg: 'bg-yellow-50',
+            hoverBg: 'hover:bg-yellow-50',
+        },
     };
 
     const colors = colorClasses[education.color];
