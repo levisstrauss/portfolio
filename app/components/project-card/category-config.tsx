@@ -1,8 +1,8 @@
 import { CategoryConfig } from './project-card.types';
 
 export const categoryConfig: Record<string, CategoryConfig> = {
-    'AI/ML': {
-        tag: 'AI/ML',
+    'ML/DL': {
+        tag: 'ML/DL',
         color: 'text-indigo-600',
         bgColor: 'bg-indigo-100',
         icon: (

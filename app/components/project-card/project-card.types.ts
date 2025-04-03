@@ -4,7 +4,7 @@ export interface ProjectType {
     title: string;
     description: string;
     image?: string;
-    category: 'Computer Vision' | 'NLP' | 'Deep Learning' | 'MLOps' | 'Generative AI' | 'Software Engineering' | 'Data Science';
+    category: 'Computer Vision' | 'NLP' | 'ML/DL' | 'MLOps' | 'Generative AI' | 'Data Science';
     technologies?: string[];
     links?: {
         demo?: string;
