@@ -10,7 +10,7 @@ const Projects = () => {
     const [activeFilter, setActiveFilter] = useState('All');
     // Filter options
     const filters =
-        ['All', 'Computer Vision', 'NLP','ML/DL', 'MLOps', 'Generative AI', 'Data Science'];
+        ['All', 'AI/ML', 'MLOps', 'Generative AI', 'Data Science'];
 
     // Filter projects based on active filter
     const filteredProjects = activeFilter === 'All'

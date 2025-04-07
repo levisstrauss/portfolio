@@ -61,36 +61,8 @@ export const educationData: EducationType[] = [
             { name: 'Compilers' },
             { name: 'Probability'}
         ],
-        projects: ' Led team of 2 to build a precalculus learning mobile applications for helping students to understand math.',
-    },
-    {
-        id: 'Associate',
-        degree: 'Associate of Science',
-        specialization: 'Computer Science',
-        institution: 'Community College of Philadelphia',
-        location: 'Philadelphia, MA',
-        period: '2019 - 2021',
-        color: 'yellow',
-        achievements: [
-            { description: 'Graduated with Honors' },
-            { description: 'Dean\'s List for all semesters' },
-            { description: 'Societies: PTK' },
-        ],
-        courses: [
-            { name: 'Data Structures & Algorithms' },
-            { name: 'Software Engineering' },
-            { name: 'Database Systems' },
-            { name: 'Operating Systems' },
-            { name: 'Web Development' },
-            { name: 'Introduction to Computer Science' },
-            { name: 'Programming Fundamentals' },
-            { name: 'Data Structures and Algorithms' },
-            { name: 'OOP' },
-            { name: 'Introduction to Python, Java, C/C++' },
-            { name: 'Precalculus & Calculus' },
-            { name: 'Statistics'},
-        ],
-        projects: 'Led team of 4 to build a real-time collaborative coding platform for the senior capstone project'
+        projects: ' Led team of 2 to build a precalculus learning mobile ' +
+            'applications for helping students to understand math.',
     },
 
 ]

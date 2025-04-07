@@ -8,7 +8,7 @@ const About = () => {
         <Section
             id="about"
             title="About Me"
-            subtitle="AI/ML Engineer specializing in production-ready machine learning systems"
+            subtitle=""
             bgColor="bg-gradient-to-b from-white to-gray-100"
         >
             <div className="bg-white p-3 rounded-xl shadow-sm border border-gray-100 transition-all duration-500 hover:shadow-lg">
@@ -150,21 +150,6 @@ const About = () => {
                                 />
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            {/* Availability Banner */}
-            <div className="mt-12 max-w-4xl mx-auto bg-indigo-600 bg-opacity-10 rounded-xl p-6 border border-indigo-200">
-                <div className="flex items-center space-x-4">
-                    <div className="rounded-full bg-indigo-600 p-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h4 className="font-semibold text-gray-900">Available for ML Engineering Roles</h4>
-                        <p className="text-gray-600">Specialized in building production-ready computer vision and NLP systems with PyTorch and TensorFlow</p>
                     </div>
                 </div>
             </div>

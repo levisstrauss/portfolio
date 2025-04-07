@@ -9,7 +9,7 @@ export const projectsData: ProjectType[] = [
             'for high accuracy and efficiency. Fine-tuned on a custom dataset, it excels in species identification, ' +
             'showcasing modern CNNs in action.',
         image: "/projects/flower.webp",
-        category: 'Computer Vision',
+        category: 'AI/ML',
         technologies: ['PyTorch', 'EfficientNet-B0', 'Transfer Learning', 'CNN'],
         links: {
             demo: 'https://example.com/demo',
@@ -24,7 +24,7 @@ export const projectsData: ProjectType[] = [
             'Achieved 100% dog detection accuracy and 93.3% breed classification precision using an optimized VGG implementation. ' +
             'Features custom data augmentation and model ensemble techniques to enhance generalization.',
         image: "/projects/dog_breed.webp",
-        category: 'Computer Vision',
+        category: 'AI/ML',
         technologies: ['PyTorch', 'Transfer Learning', 'Model Ensembles', 'CNN Architecture Design'],
         links: {
             demo: 'https://example.com/demo',
@@ -39,7 +39,7 @@ export const projectsData: ProjectType[] = [
             'using a fine-tuned EfficientNetB2 architecture. Achieved remarkable performance with only 5 training epochs ' +
             'through effective feature extraction and strategic data augmentation, deployed with an interactive Gradio interface.',
         image: "/projects/food.webp",
-        category: 'Computer Vision',
+        category: 'AI/ML',
         technologies: ['PyTorch', 'Transfer Learning', 'EfficientNet', 'Gradio', 'Hugging Face Spaces'],
         links: {
             demo: 'https://huggingface.co/spaces/Codemon/foodvision_big',

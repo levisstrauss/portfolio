@@ -12,6 +12,7 @@ const tags: Tag[] = [
     { id: 'pytorch', label: 'PyTorch' },
     { id: 'tensorflow', label: 'TensorFlow' },
     { id: 'aws-ml', label: 'AWS ML Services' },
+    { id: 'ai-product', label: 'AI Product Development' },
 ];
 
 const socialLinks: SocialLink[] = [
@@ -42,8 +43,9 @@ const Banner = () => {
                     </h1>
 
                     {/* Title with animation */}
-                    <p className="text-xl md:text-2xl text-blue-100 mb-8 animate-fade-in delay-200">
-                        ML Engineer specializing in production-ready AI systems & computer vision
+                    <p className="text-xl md:text-2xl text-blue-100 mb-5 animate-fade-in delay-200">
+                        {/*AI/ML Engineer focused on <span className="text-gradient bg-gradient-to-r from-blue-400 to-purple-500">Innovation</span>*/}
+                        AI/ML Engineer focused on <span className="bg-white text-blue-800 px-2 py-0.5 rounded-md font-bold">Innovation</span>
                     </p>
 
                     {/* Skill tags with animation */}
