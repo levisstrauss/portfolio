@@ -2,8 +2,8 @@ import { ReactNode } from 'react';
 
 export interface Skill {
     name: string;
-    level: number;
-    projects: number;
+    // level: number;
+    // projects: number;
 }
 
 export interface SkillCategory {

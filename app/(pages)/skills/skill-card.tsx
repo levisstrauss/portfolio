@@ -1,5 +1,4 @@
 
-import { ArrowUpRight, Star } from "lucide-react";
 import { SkillCategory } from './skills-types';
 
 interface SkillCardProps {
@@ -28,30 +27,9 @@ const SkillCard = ({ category }: SkillCardProps) => {
                         className="rounded-md hover:bg-white transition-all duration-300 group/skill p-1.5"
                     >
                         <div className="flex justify-between items-center">
-                          <span className="text-sm font-medium text-gray-700 group-hover/skill:text-indigo-600 transition-colors">
-                            {skill.name}
-                          </span>
-                            <div className="flex items-center gap-1">
-                                <Star className="w-3 h-3 text-indigo-600" />
-                                <span className="text-xs text-gray-600">{skill.level}%</span>
-                            </div>
-                        </div>
-
-                        <div className="w-full bg-gray-100 rounded-full h-1.5 mt-1">
-                            <div
-                                className="bg-indigo-600 h-full rounded-full transition-all duration-500 group-hover/skill:brightness-110"
-                                style={{ width: `${skill.level}%` }}
-                            />
-                        </div>
-
-                        <div className="opacity-0 group-hover/skill:opacity-100 transition-opacity flex justify-between items-center mt-0.5">
-                              <span className="text-xs text-gray-500">
-                                {skill.projects} projects
-                              </span>
-                            <button className="text-xs text-indigo-600 hover:text-indigo-700 flex items-center gap-0.5">
-                                Details
-                                <ArrowUpRight className="w-3 h-3" />
-                            </button>
+                            <span className="text-sm font-medium text-gray-700 group-hover/skill:text-indigo-600 transition-colors">
+                                {skill.name}
+                            </span>
                         </div>
                     </div>
                 ))}

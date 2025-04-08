@@ -1,39 +1,38 @@
 import {Brain, Code, Database, GitBranch, Laptop, Zap} from "lucide-react";
 import { SkillCategory } from './skills-types';
 
-
 export const skillCategories: SkillCategory[] = [
     {
-        title: "ML Engineering Core",
+        title: "Machine Learning",
         icon: <Brain className="w-4 h-4 text-indigo-600" />,
-        description: "Machine learning frameworks & techniques",
+        description: "Core ML frameworks & techniques",
         skills: [
-            { name: "PyTorch", level: 90, projects: 3 },
-            { name: "TensorFlow", level: 87, projects: 3 },
-            { name: "Scikit-learn", level: 90, projects: 3 },
-            { name: "Computer Vision", level: 88, projects: 2 }
+            { name: "PyTorch" },
+            { name: "TensorFlow" },
+            { name: "Deep Learning" },
+            { name: "Computer Vision" }
         ]
     },
     {
-        title: "ML Specializations",
+        title: "NLP & Advanced ML",
         icon: <Zap className="w-4 h-4 text-indigo-600" />,
-        description: "Specialized ML domains",
+        description: "Language processing & specialized techniques",
         skills: [
-            { name: "NLP", level: 85, projects: 2 },
-            { name: "Transformers", level: 83, projects: 2 },
-            { name: "Deep Learning", level: 87, projects: 3 },
-            { name: "Model Optimization", level: 82, projects: 2 }
+            { name: "NLP" },
+            { name: "Transformers" },
+            { name: "Model Optimization" },
+            { name: "Scikit-learn" }
         ]
     },
     {
-        title: "MLOps & Deployment",
+        title: "MLOps",
         icon: <GitBranch className="w-4 h-4 text-indigo-600" />,
-        description: "ML systems engineering",
+        description: "ML deployment & infrastructure",
         skills: [
-            { name: "Docker", level: 90, projects: 1 },
-            { name: "Kubernetes", level: 85, projects: 1 },
-            { name: "AWS SageMaker", level: 80, projects: 2 },
-            { name: "Model Serving", level: 82, projects: 1 }
+            { name: "Docker" },
+            { name: "Kubernetes" },
+            { name: "AWS SageMaker" },
+            { name: "Model Serving" }
         ]
     },
     {
@@ -41,32 +40,32 @@ export const skillCategories: SkillCategory[] = [
         icon: <Database className="w-4 h-4 text-indigo-600" />,
         description: "Data processing & analysis",
         skills: [
-            { name: "Pandas", level: 95, projects: 3 },
-            { name: "NumPy", level: 90, projects: 3 },
-            { name: "Data Pipelines", level: 85, projects: 2 },
-            { name: "PySpark", level: 75, projects: 1 }
+            { name: "Pandas" },
+            { name: "NumPy" },
+            { name: "Data Pipelines" },
+            { name: "PySpark" }
         ]
     },
     {
-        title: "Programming",
+        title: "Software Development",
         icon: <Code className="w-4 h-4 text-indigo-600" />,
-        description: "Development languages",
+        description: "Programming & API development",
         skills: [
-            { name: "Python", level: 95, projects: 2 },
-            { name: "C++", level: 85, projects: 2 },
-            { name: "SQL", level: 80, projects: 3 },
-            { name: "FastAPI", level: 88, projects: 3 }
+            { name: "Python" },
+            { name: "C++" },
+            { name: "SQL" },
+            { name: "FastAPI" }
         ]
     },
     {
-        title: "Research & Experimentation",
+        title: "Research Tools",
         icon: <Laptop className="w-4 h-4 text-indigo-600" />,
-        description: "ML research tools",
+        description: "Experimentation & analysis",
         skills: [
-            { name: "Weights & Biases", level: 85, projects: 2 },
-            { name: "Jupyter", level: 90, projects: 8 },
-            { name: "Experiment Tracking", level: 85, projects: 3 },
-            { name: "Research Papers", level: 80, projects: 2 }
+            { name: "Weights & Biases" },
+            { name: "Jupyter" },
+            { name: "Experiment Tracking" },
+            { name: "Research Literature" }
         ]
     }
 ];
