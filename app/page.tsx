@@ -21,10 +21,10 @@ const About = dynamic(() => import('@/app/(pages)/about/about'), {
     ssr: true // Pre-render this component on the server for faster initial load
 });
 
-// Experience section - relatively high priority
-const Experience = dynamic(() => import('@/app/(pages)/experience/experience'), {
-    ssr: true // Also pre-render this component for better SEO and initial load
-});
+// // Experience section - relatively high priority
+// const Experience = dynamic(() => import('@/app/(pages)/experience/experience'), {
+//     ssr: true // Also pre-render this component for better SEO and initial load
+// });
 
 // Secondary content (below the fold)
 const Projects = dynamic(() => import('@/app/(pages)/projects/projects'));
@@ -40,7 +40,7 @@ export default function Home() {
         <>
             {/* Priority content - fewer loading states */}
             <About />
-            <Experience />
+            {/*<Experience />*/}
 
             {/* Separate loading for independent sections */}
             <Suspense fallback={<SectionLoader name="Projects" />}>
@@ -63,6 +63,5 @@ export default function Home() {
                 <Contact />
             </Suspense>
         </>
-
     );
 }
