@@ -16,7 +16,7 @@ const Navigation = () => {
     // Navigation items
     const navItems = [
         { name: 'About', href: isHomePage ? '#about' : '/#about', icon: <User className="w-4 h-4" /> },
-        { name: 'Experience', href: isHomePage ? '#experience' : '/#experience', icon: <Briefcase className="w-4 h-4" /> },
+        // { name: 'Experience', href: isHomePage ? '#experience' : '/#experience', icon: <Briefcase className="w-4 h-4" /> },
         { name: 'Projects', href: isHomePage ? '#projects' : '/#projects', icon: <FolderOpen className="w-4 h-4" /> },
         { name: 'Skills', href: isHomePage ? '#skills' : '/#skills', icon: <Code className="w-4 h-4" /> },
         // { name: 'Open Source', href: isHomePage ? '#open-source' : '/#open-source', icon: <GitFork className="w-4 h-4" /> },
