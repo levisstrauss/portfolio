@@ -46,22 +46,22 @@ export const projectsData: ProjectType[] = [
             github: 'https://github.com/levisstrauss/food-vision-big',
             moreInfo: '/projects/foodvision-big'
         }
+    },
+    {
+        id: 3,
+        title: 'Real-time Face Mask Detection System',
+        description: 'Developed a production-optimized face mask detection system achieving 98.2% accuracy with ' +
+            'ultra-fast 0.12s inference time. Implemented custom model head architecture on ResNet18 backbone, ' +
+            'with deployment to Hugging Face Spaces for real-world accessibility and monitoring.',
+        image: "/projects/face_mask.webp",
+        category: 'AI/ML',
+        technologies: ['PyTorch', 'Model Optimization', 'Transfer Learning', 'Hugging Face Deployment'],
+        links: {
+            demo: 'https://huggingface.co/spaces/Codemon/maskguard',
+            github: 'https://github.com/username/face-mask-detection',
+            moreInfo: '/projects/face-mask-detection'
+        }
     }
-    // {
-    //     id: 3,
-    //     title: 'Real-time Face Mask Detection System',
-    //     description: 'Developed a production-optimized face mask detection system achieving 98.2% accuracy with ' +
-    //         'ultra-fast 0.12s inference time. Implemented custom model head architecture on ResNet18 backbone, ' +
-    //         'with deployment to Hugging Face Spaces for real-world accessibility and monitoring.',
-    //     image: "/projects/face_mask.webp",
-    //     category: 'Computer Vision',
-    //     technologies: ['PyTorch', 'Model Optimization', 'Transfer Learning', 'Hugging Face Deployment'],
-    //     links: {
-    //         demo: 'https://huggingface.co/spaces/Codemon/maskguard',
-    //         github: 'https://github.com/username/face-mask-detection',
-    //         moreInfo: '/projects/face-mask-detection'
-    //     }
-    // }
 ];
 
 
