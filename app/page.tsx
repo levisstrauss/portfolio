@@ -28,7 +28,7 @@ const About = dynamic(() => import('@/app/(pages)/about/about'), {
 
 // Secondary content (below the fold)
 const Projects = dynamic(() => import('@/app/(pages)/projects/projects'));
-const Skills = dynamic(() => import('@/app/(pages)/skills/skills'));
+const Skills = dynamic(() => import('@/app/(pages)/skills/skills-section'));
 const Education = dynamic(() => import('@/app/(pages)/education/education'));
 const Certificates = dynamic(() => import('@/app/(pages)/certificates/certificates'));
 const Contact = dynamic(() => import('@/app/(pages)/contact/contact'));

@@ -8,7 +8,7 @@ interface SectionProps {
     children: React.ReactNode;
 }
 
-const Section = ({id, title, subtitle, bgColor = 'bg-white', children,}: SectionProps) => {
+const Section = ({id, title, subtitle, bgColor = 'bg-white', children="",}: SectionProps) => {
     return (
         <section id={id} className={`py-3 md:py-7 ${bgColor}`}>
             <div className="container mx-auto px-6">
