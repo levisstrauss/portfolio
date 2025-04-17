@@ -111,16 +111,15 @@ const About = () => {
                     <div className="lg:w-2/3 space-y-4">
                         <h3 className="text-2xl font-bold text-gray-800 hidden lg:block">My Journey</h3>
                         <p className="text-gray-700 leading-relaxed text-lg">
-                            I&apos;m an AI/ML Engineer with a strong software engineering background, specializing in developing
-                            production-ready machine learning systems. My technical foundation in computer vision and NLP
-                            is complemented by hands-on experience with PyTorch and TensorFlow frameworks.
+                            As a Full-Stack Developer with deep expertise in AI/ML, my career path has been defined by building production-ready intelligent systems that solve complex business challenges. My technical foundation combines advanced computer vision and NLP capabilities with software engineering best practices, allowing me to develop AI solutions that scale effectively in real-world environments.
                         </p>
 
                         <p className="text-gray-700 leading-relaxed text-lg">
-                            My approach combines rigorous software engineering practices with ML expertise to build
-                            scalable, deployable AI solutions. I excel at optimizing model performance, implementing
-                            end-to-end ML pipelines, and addressing real-world challenges in model deployment
-                            and monitoring. I'm focused on creating AI systems that deliver measurable business impact.
+                            At UIUC's MCS program, I'm expanding my knowledge of how AI/ML can transform healthcare outcomes and business operations. My hands-on experience with PyTorch and TensorFlow enables me to implement end-to-end ML pipelines that deliver measurable impact. I've developed a particular strength in model optimization, deployment infrastructure, and long-term monitoring systems that ensure AI continues to provide value over time.
+                        </p>
+
+                        <p className="text-gray-700 leading-relaxed text-lg">
+                            I'm passionate about technical leadership that bridges the gap between cutting-edge research and practical implementation, creating AI systems that not only perform well in controlled environments but thrive when solving real problems for real users.
                         </p>
 
                         {/* Focus Areas */}
@@ -139,11 +138,11 @@ const About = () => {
                                     title="AI/ML Engineering"
                                     description="Building production-ready machine learning systems with a focus on scalability and business impact"
                                     skills={[
-                                        'Computer Vision & NLP',
-                                        'Deep Learning Model Architecture',
-                                        'PyTorch & TensorFlow',
-                                        'MLOps & Model Deployment',
-                                        'Distributed Training & Optimization',
+                                        'Computer Vision & NLP expertise',
+                                        'Deep Learning Model Architecture design',
+                                        'PyTorch & TensorFlow implementation',
+                                        'MLOps & Model Deployment optimization',
+                                        'Distributed Training & Optimization techniques',
                                         'Cloud ML Infrastructure (AWS SageMaker)',
                                         'Data Pipeline Engineering'
                                     ]}
