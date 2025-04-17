@@ -37,7 +37,7 @@
 "use client";
 import { Trophy } from "lucide-react";
 import Section from '@/app/components/section';
-import { skillCategories } from './skills-data';
+import { skillCategories } from '../skills-data';
 import SkillCard from './skill-card';
 
 const Skills = () => {

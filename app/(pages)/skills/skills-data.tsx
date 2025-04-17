@@ -1,5 +1,5 @@
 import {Brain, Code, Database, GitBranch, Laptop, Zap} from "lucide-react";
-import { SkillCategory } from './skills-types';
+import { SkillCategory } from './test/skills-types';
 
 // export const skillCategories: SkillCategory[] = [
 //     {
