@@ -51,7 +51,7 @@ const EducationCard = ({ education, isActive }: EducationCardProps) => {
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                         <div>
                             <h3 className="text-xl font-bold">{education.degree}</h3>
-                            <p className="text-blue-100 mt-1">Specialization in {education.specialization}</p>
+                            <p className="text-blue-100 mt-1">{education.specialization}</p>
                         </div>
                         <div className="bg-white/20 rounded-lg px-3 py-1.5 mt-3 md:mt-0 backdrop-blur-sm">
                             <div className="flex items-center gap-2">
