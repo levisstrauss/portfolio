@@ -1,48 +1,34 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import React from "react";
-import Banner from "@/app/components/banner";
-import Footer from "@/app/components/footer";
-import Navigation from "@/app/components/navigation";
+import type React from "react"
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
+import { ThemeProvider } from "@/components/theme-provider"
+import Navigation from "@/components/navigation"
+import Footer from "@/components/footer"
 
-// Font setup
-const geistSans = Geist({
-    variable: "--font-geist-sans",
-    subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"] })
 
-const geistMono = Geist_Mono({
-    variable: "--font-geist-mono",
-    subsets: ["latin"],
-});
-
-// Metadata for SEO
 export const metadata: Metadata = {
-    title: 'Zakaria Coulibaly - AI/ML Specialist',
-    description: 'Portfolio showcasing expertise in AI/ML, computer vision, and cloud architecture.',
-    keywords: 'AI specialist, ML engineer, portfolio',
-    authors: [{ name: 'Zakaria Coulibaly' }],
-    creator: 'Zakaria Coulibaly',
-};
-
-import BackToTop from './components/ui/back-to-top';
-
-export default function RootLayout({
-   children,
-}: Readonly<{ children: React.ReactNode }>) {
-    return (
-        <html lang="en" className="scroll-smooth">
-        <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}>
-        <Navigation />
-        <Banner />
-        <main className="flex-grow">
-            {children}
-        </main>
-        <Footer />
-        <BackToTop />
-        </body>
-        </html>
-    );
+  title: "Zakaria Coulibaly | AI/ML Engineer Portfolio",
+  description: "Portfolio showcasing AI/ML engineering projects and expertise of Zakaria Coulibaly",
 }
 
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body className={inter.className}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange={false}>
+          <div className="flex min-h-screen flex-col">
+            <Navigation />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
+        </ThemeProvider>
+      </body>
+    </html>
+  )
+}

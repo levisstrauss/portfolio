@@ -1,67 +1,48 @@
-import { Suspense } from 'react';
-import dynamic from 'next/dynamic';
-import LoadingSpinner from '@/app/components/ui/loading-spinner';
+"use client"
 
-
-type SectionLoaderProps = {
-    name: string;
-}
-
-const SectionLoader = ({ name }: SectionLoaderProps) => (
-    <section className="py-20 flex justify-center items-center">
-        <div className="text-center">
-            <LoadingSpinner />
-            <p className="mt-4 text-gray-600">Loading {name} Section...</p>
-        </div>
-    </section>
-);
-
-// Priority content (above the fold)
-const About = dynamic(() => import('@/app/(pages)/about/about'), {
-    ssr: true // Pre-render this component on the server for faster initial load
-});
-
-// // Experience section - relatively high priority
-// const Experience = dynamic(() => import('@/app/(pages)/experience/experience'), {
-//     ssr: true // Also pre-render this component for better SEO and initial load
-// });
-
-// Secondary content (below the fold)
-const Projects = dynamic(() => import('@/app/(pages)/projects/projects'));
-const Skills = dynamic(() => import('@/app/(pages)/skills/skills-section'));
-const Education = dynamic(() => import('@/app/(pages)/education/education'));
-const Certificates = dynamic(() => import('@/app/(pages)/certificates/certificates'));
-const Contact = dynamic(() => import('@/app/(pages)/contact/contact'));
-const OpenSource = dynamic(() => import('@/app/(pages)/open-source/open-source'));
-const Blog = dynamic(() => import('@/app/(pages)/blog/blog'));
+import { useEffect } from "react"
+import Hero from "@/components/hero"
+import About from "@/components/about"
+import Projects from "@/components/projects"
+import Skills from "@/components/skills"
+import Timeline from "@/components/timeline"
+import Publications from "@/components/publications"
+import Blog from "@/components/blog"
+import ContactInfo from "@/components/contact"
+import Education from "@/components/education"
+import Certifications from "@/components/certifications"
+import SectionConnector from "@/components/section-connector"
 
 export default function Home() {
-    return (
-        <>
-            {/* Priority content - fewer loading states */}
-            <About />
-            {/*<Experience />*/}
+  // Handle hash navigation when the page loads
+  useEffect(() => {
+    // Check if there's a hash in the URL
+    if (window.location.hash) {
+      const id = window.location.hash.substring(1)
+      const element = document.getElementById(id)
 
-            {/* Separate loading for independent sections */}
-            <Suspense fallback={<SectionLoader name="Projects" />}>
-                <Projects />
-            </Suspense>
+      if (element) {
+        // Add a slight delay to ensure the page is fully loaded
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" })
+        }, 300)
+      }
+    }
+  }, [])
 
-            {/* Group related content in a single Suspense boundary */}
-            <Suspense fallback={<SectionLoader name="Professional Info" />}>
-                <Skills />
-                <Education />
-                <Certificates />
-            </Suspense>
-            {/* Open Source and Blog sections */}
-            {/*<Suspense fallback={<SectionLoader name="Contributions" />}>*/}
-            {/*    <OpenSource />*/}
-            {/*    <Blog />*/}
-            {/*</Suspense>*/}
-
-            <Suspense fallback={<SectionLoader name="Contact" />}>
-                <Contact />
-            </Suspense>
-        </>
-    );
+  return (
+    <div className="container mx-auto px-4">
+      <Hero />
+      <About />
+      <Projects />
+      <SectionConnector />
+      <Skills />
+      <Education />
+      <Certifications />
+      <Timeline />
+      <Publications />
+      <Blog />
+      <ContactInfo />
+    </div>
+  )
 }

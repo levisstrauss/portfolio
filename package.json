@@ -1,5 +1,5 @@
 {
-  "name": "professional-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,33 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@contentful/rich-text-react-renderer": "^16.0.1",
-    "@contentful/rich-text-types": "^17.0.0",
-    "@mdx-js/react": "^3.1.0",
-    "contentful": "^11.5.3",
-    "contentful-management": "^11.47.3",
-    "dotenv": "^16.4.7",
-    "framer-motion": "^12.4.7",
-    "gray-matter": "^4.0.3",
-    "lucide-react": "^0.476.0",
-    "next": "15.1.7",
-    "next-mdx-remote": "^5.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "reading-time": "^1.5.0",
-    "rehype-highlight": "^7.0.2",
-    "remark": "^15.0.1",
-    "remark-html": "^16.0.1"
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.344.0",
+    "next": "15.2.4",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-syntax-highlighter": "^15.6.1",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.7",
-    "postcss": "^8",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^20.11.20",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5.3.3"
   }
 }
