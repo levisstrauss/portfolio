@@ -12,12 +12,14 @@ import { Footer } from "@/components/footer"
 // Features
 import { ScrollProgress } from "@/components/scroll-progress"
 import { CustomCursor } from "@/components/custom-cursor"
+import { Preloader } from "@/components/preloader"
 
 
 
 export default function Home() {
   return (
       <>
+          <Preloader />
           <ScrollProgress />
           <CustomCursor />
 
