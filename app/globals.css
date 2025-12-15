@@ -199,7 +199,7 @@
 /* Hide default cursor on desktop for custom cursor */
 @media (min-width: 768px) {
   body {
-    cursor: none;
+    cursor: auto !important;
   }
 
   a,
@@ -208,7 +208,7 @@
   input,
   textarea,
   select {
-    cursor: none;
+    cursor: auto !important;
   }
 }
 

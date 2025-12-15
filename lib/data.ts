@@ -1,14 +1,14 @@
 export const personalInfo = {
-  name: "Alex Chen",
+  name: "Zakaria Coulibaly",
   roles: ["AI/ML Engineer", "Full-Stack Developer", "Data Scientist", "Researcher"],
-  location: "San Francisco, CA",
-  email: "alex.chen@email.com",
+  location: "Pennsylvania, PA",
+  email: "zcoulibalyeng@gmail.com",
   bio: "I'm a developer passionate about crafting intelligent, pixel-perfect systems that blend cutting-edge AI with robust engineering. My work lies at the intersection of machine learning and software development, creating solutions that not only work but excel in production environments.",
   tagline: "Building the future with AI and elegant code",
   social: {
-    github: "https://github.com/alexchen",
-    linkedin: "https://linkedin.com/in/alexchen",
-    twitter: "https://twitter.com/alexchen",
+    github: "https://github.com/levisstrauss",
+    linkedin: "https://linkedin.com/in/levisstrauss",
+    twitter: "https://twitter.com/codemon",
   },
   stats: {
     repositories: 50,
@@ -21,17 +21,17 @@ export const personalInfo = {
 export const education = [
   {
     degree: "Master of Science in Computer Science",
-    school: "Stanford University",
-    period: "2023 - 2025",
-    gpa: "3.9/4.0",
-    focus: "Machine Learning & AI Systems",
+    school: "Penn State University",
+    period: "2025 - 2026",
+    gpa: "4.0/4.0",
+    focus: "Data Science, & Artificial Intelligence",
   },
   {
-    degree: "Bachelor of Science in Software Engineering",
-    school: "UC Berkeley",
-    period: "2019 - 2023",
-    gpa: "3.85/4.0",
-    focus: "Computer Science & Mathematics",
+    degree: "Bachelor of Science in Computer Science & Minor in Math",
+    school: "Penn State University",
+    period: "2022 - 2024",
+    gpa: "3.25/4.0",
+    focus: "Software Engineering & Application Design",
   },
 ]
 
