@@ -11,10 +11,10 @@ export const personalInfo = {
     twitter: "https://twitter.com/codemon",
   },
   stats: {
-    repositories: 50,
-    stars: 1200,
-    contributions: 200,
-    publications: 5,
+    repositories: 31,
+    stars: 21,
+    contributions: 2,
+    publications: 0,
   },
 }
 
