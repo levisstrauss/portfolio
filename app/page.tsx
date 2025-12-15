@@ -14,6 +14,7 @@ import { ScrollProgress } from "@/components/scroll-progress"
 import { CustomCursor } from "@/components/custom-cursor"
 import { Preloader } from "@/components/preloader"
 import { AvailabilityBadge } from "@/components/availability-badge"
+import { BackToTop } from "@/components/back-to-top"
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
           <AvailabilityBadge />
           <ScrollProgress />
           <CustomCursor />
+          <BackToTop />
 
           <main className="min-h-screen bg-background">
               <Navigation />
