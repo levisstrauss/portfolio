@@ -13,6 +13,7 @@ import { Footer } from "@/components/footer"
 import { ScrollProgress } from "@/components/scroll-progress"
 import { CustomCursor } from "@/components/custom-cursor"
 import { Preloader } from "@/components/preloader"
+import { AvailabilityBadge } from "@/components/availability-badge"
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
   return (
       <>
           <Preloader />
+          <AvailabilityBadge />
           <ScrollProgress />
           <CustomCursor />
 

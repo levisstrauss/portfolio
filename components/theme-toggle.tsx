@@ -1,6 +1,6 @@
 "use client"
 
-import {useCallback, useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import { motion } from "framer-motion"
 import { Sun, Moon } from "lucide-react"
 import { useTheme } from "./theme-provider"
@@ -18,7 +18,7 @@ export function ThemeToggle() {
   if (!mounted) {
     return (
         <div className="p-2 rounded-full bg-secondary/50 opacity-0 pointer-events-none">
-          <div className="w-[18px] h-[18px]" />
+          <div className="w-4.5 h-4.5" />
         </div>
     )
   }
