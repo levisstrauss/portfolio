@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Heart } from "lucide-react"
 import { personalInfo, navItems } from "@/lib/data"
 
 export function Footer() {

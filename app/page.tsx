@@ -7,24 +7,30 @@ import { SkillsSection } from "@/components/skills-section"
 import { CertificationsSection } from "@/components/certifications-section"
 import { BlogSection } from "@/components/blog-section"
 import { ContactSection } from "@/components/contact-section"
-
 import { Footer } from "@/components/footer"
+
+// Features
+import { ScrollProgress } from "@/components/scroll-progress"
 
 
 
 export default function Home() {
   return (
-      <main className="min-h-screen bg-background">
-          <Navigation />
-          <HeroSection />
-          <AboutSection />
-          <ExperienceSection />
-          <ProjectsSection />
-          <SkillsSection />
-          <CertificationsSection />
-          <BlogSection />
-          <ContactSection />
-          <Footer />
-      </main>
+      <>
+          <ScrollProgress />
+
+          <main className="min-h-screen bg-background">
+              <Navigation />
+              <HeroSection />
+              <AboutSection />
+              <ExperienceSection />
+              <ProjectsSection />
+              <SkillsSection />
+              <CertificationsSection />
+              <BlogSection />
+              <ContactSection />
+              <Footer />
+          </main>
+      </>
   )
 }
