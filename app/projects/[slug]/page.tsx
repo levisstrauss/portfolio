@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation"
 import { projects } from "@/lib/data"
+import { CaseStudyContent } from "@/components/case-study-content"
 
 
 // Generate static paths for all projects
@@ -20,5 +21,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
   if (!project) {
     notFound()
   }
+
+  return <CaseStudyContent project={project} />
 
 }
