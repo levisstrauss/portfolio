@@ -37,41 +37,53 @@ export const education = [
 
 export const experience = [
   {
-    title: "AI Research Intern",
-    company: "OpenAI",
-    period: "Summer 2024",
+    title: "Graduate Researcher",
+    company: "University of Illinois",
+    period: "Fall 2025",
     description:
-      "Developed novel approaches for multi-agent systems and contributed to research on emergent behaviors in large language models.",
-    achievements: ["Published research paper", "Improved model efficiency by 15%"],
-    technologies: ["Python", "PyTorch", "Transformers"],
+        "Reproduced the Temporal Pointwise Convolutional Networks (TPCN) architecture to predict patient length of stay (LOS) in ICUs using the MIMIC-III dataset.",
+    achievements: [
+      "Implemented complex deep learning architecture from scratch using PyTorch to validate state-of-the-art research",
+      "// Placeholder: Add your specific result here"
+    ],
+    technologies: ["Python", "PyTorch", "Pandas", "MIMIC-III"],
   },
-  {
-    title: "ML Engineer Intern",
-    company: "Google",
-    period: "Summer 2023",
-    description:
-      "Built and deployed machine learning pipelines for Google Cloud's AI Platform, focusing on scalable inference systems.",
-    achievements: ["Reduced latency by 40%", "Served 1M+ requests/day"],
-    technologies: ["TensorFlow", "Kubernetes", "GCP"],
-  },
-  {
-    title: "Software Developer",
-    company: "Microsoft",
-    period: "2022 - 2023",
-    description:
-      "Developed full-stack features for Microsoft Teams, focusing on real-time collaboration and accessibility improvements.",
-    achievements: ["Shipped 5 major features", "Improved accessibility score"],
-    technologies: ["TypeScript", "React", "Azure"],
-  },
-  {
-    title: "Research Assistant",
-    company: "UC Berkeley AI Lab",
-    period: "2021 - 2023",
-    description:
-      "Conducted research on computer vision and natural language processing, publishing findings in top-tier conferences.",
-    achievements: ["3 publications", "Best Paper Award"],
-    technologies: ["Python", "PyTorch", "OpenCV"],
-  },
+  // {
+  //   title: "Graduate Researcher",
+  //   company: "University of Illinois",
+  //   period: "Fall 2025",
+  //   description:
+  //     "Developed novel approaches for multi-agent systems and contributed to research on emergent behaviors in large language models.",
+  //   achievements: ["Published research paper", "Improved model efficiency by 15%"],
+  //   technologies: ["Python", "PyTorch", "Transformers"],
+  // },
+  // {
+  //   title: "ML Engineer Intern",
+  //   company: "Google",
+  //   period: "Summer 2023",
+  //   description:
+  //     "Built and deployed machine learning pipelines for Google Cloud's AI Platform, focusing on scalable inference systems.",
+  //   achievements: ["Reduced latency by 40%", "Served 1M+ requests/day"],
+  //   technologies: ["TensorFlow", "Kubernetes", "GCP"],
+  // },
+  // {
+  //   title: "Software Developer",
+  //   company: "Microsoft",
+  //   period: "2022 - 2023",
+  //   description:
+  //     "Developed full-stack features for Microsoft Teams, focusing on real-time collaboration and accessibility improvements.",
+  //   achievements: ["Shipped 5 major features", "Improved accessibility score"],
+  //   technologies: ["TypeScript", "React", "Azure"],
+  // },
+  // {
+  //   title: "Research Assistant",
+  //   company: "UC Berkeley AI Lab",
+  //   period: "2021 - 2023",
+  //   description:
+  //     "Conducted research on computer vision and natural language processing, publishing findings in top-tier conferences.",
+  //   achievements: ["3 publications", "Best Paper Award"],
+  //   technologies: ["Python", "PyTorch", "OpenCV"],
+  // },
 ]
 
 export const skills = {
