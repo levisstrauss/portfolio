@@ -11,6 +11,7 @@ import { Footer } from "@/components/footer"
 
 // Features
 import { ScrollProgress } from "@/components/scroll-progress"
+import { CustomCursor } from "@/components/custom-cursor"
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
   return (
       <>
           <ScrollProgress />
+          <CustomCursor />
 
           <main className="min-h-screen bg-background">
               <Navigation />
