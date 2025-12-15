@@ -30,7 +30,7 @@ export function Footer() {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Made with <Heart size={14} className="text-primary fill-primary" /> in {personalInfo.location.split(",")[0]}
+            Made in {personalInfo.location}
           </p>
         </div>
 
