@@ -3,11 +3,17 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
-import { navItems, personalInfo } from "@/lib/data"
+import { navItems } from "@/lib/data"
+
 import { cn } from "@/lib/utils"
 import { ThemeToggle } from "./theme-toggle"
 
-export function Navigation() {
+
+interface NavigationProps {
+  personalInfo: any | null;
+}
+
+export function Navigation({ personalInfo }: NavigationProps) {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState("")
@@ -50,7 +56,8 @@ export function Navigation() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          {personalInfo.name.split(" ")[0]}
+          {/*{personalInfo.name.split(" ")[0]}*/}
+          {personalInfo?.name ? personalInfo.name.split(" ")[0] : "Portfolio"}
           <span className="text-primary">.</span>
         </motion.a>
 

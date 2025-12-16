@@ -18,8 +18,34 @@ import { BackToTop } from "@/components/back-to-top"
 import { SnowEffect } from "@/components/snow-effect"
 
 
+import {
+    getPersonalInfo,
+    getExperience,
+    // getProjects,
+    getSkills,
+    getCertifications,
+    getBlogPosts
+} from "@/lib/contentful"
 
-export default function Home() {
+
+export default async function Home() {
+
+    const [
+        personalInfo,
+        // experience,
+        // projects,
+        // skills,
+        // certifications,
+        // blogs
+    ] = await Promise.all([
+        getPersonalInfo(),
+        // getExperience(),
+        // getProjects(),
+        // getSkills(),
+        // getCertifications(),
+        // getBlogPosts()
+    ]);
+
   return (
       <>
           <Preloader />
@@ -30,7 +56,7 @@ export default function Home() {
           <SnowEffect />
 
           <main className="min-h-screen bg-background">
-              <Navigation />
+              <Navigation personalInfo={personalInfo} />
               <HeroSection />
               <AboutSection />
               <ExperienceSection />
