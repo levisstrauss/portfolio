@@ -24,7 +24,7 @@ export function CaseStudyContent({ project }: CaseStudyContentProps) {
     <main className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative pt-24 pb-16 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-b from-primary/5 to-transparent" />
         <div className="container mx-auto px-6 relative">
           {/* Back button */}
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>

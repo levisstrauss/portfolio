@@ -15,6 +15,7 @@ import { CustomCursor } from "@/components/custom-cursor"
 import { Preloader } from "@/components/preloader"
 import { AvailabilityBadge } from "@/components/availability-badge"
 import { BackToTop } from "@/components/back-to-top"
+import { SnowEffect } from "@/components/snow-effect"
 
 
 
@@ -26,6 +27,7 @@ export default function Home() {
           <ScrollProgress />
           <CustomCursor />
           <BackToTop />
+          <SnowEffect />
 
           <main className="min-h-screen bg-background">
               <Navigation />
