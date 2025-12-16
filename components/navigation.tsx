@@ -45,6 +45,7 @@ export function Navigation() {
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <motion.a
           href="#"
+          aria-label="Home"
           className="font-serif text-2xl font-bold text-gradient"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -86,6 +87,7 @@ export function Navigation() {
             className="p-2 text-foreground"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             whileTap={{ scale: 0.95 }}
+            aria-label="Toggle mobile menu"
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </motion.button>
