@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter, Playfair_Display } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
+
 import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
@@ -39,7 +39,6 @@ export default function RootLayout({children,}: Readonly<{
       <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}
       </ThemeProvider>
-      <Analytics />
       </body>
       </html>
   )
