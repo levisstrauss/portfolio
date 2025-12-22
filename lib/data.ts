@@ -11,9 +11,9 @@ export const personalInfo = {
     twitter: "https://twitter.com/codemon",
   },
   stats: {
-    repositories: 31,
-    stars: 21,
-    contributions: 2,
+    repositories: 0,
+    stars: 0,
+    contributions: 0,
     publications: 0,
   },
 }
@@ -43,47 +43,19 @@ export const experience = [
     description:
         "Reproduced the Temporal Pointwise Convolutional Networks (TPCN) architecture to predict patient length of stay (LOS) in ICUs using the MIMIC-III dataset.",
     achievements: [
-      "Implemented complex deep learning architecture from scratch using PyTorch to validate state-of-the-art research",
-      "// Placeholder: Add your specific result here"
+      "Implemented complex deep learning architecture from scratch using PyTorch to validate state-of-the-art research, Placeholder: Add your specific result here"
     ],
     technologies: ["Python", "PyTorch", "Pandas", "MIMIC-III"],
   },
-  // {
-  //   title: "Graduate Researcher",
-  //   company: "University of Illinois",
-  //   period: "Fall 2025",
-  //   description:
-  //     "Developed novel approaches for multi-agent systems and contributed to research on emergent behaviors in large language models.",
-  //   achievements: ["Published research paper", "Improved model efficiency by 15%"],
-  //   technologies: ["Python", "PyTorch", "Transformers"],
-  // },
-  // {
-  //   title: "ML Engineer Intern",
-  //   company: "Google",
-  //   period: "Summer 2023",
-  //   description:
-  //     "Built and deployed machine learning pipelines for Google Cloud's AI Platform, focusing on scalable inference systems.",
-  //   achievements: ["Reduced latency by 40%", "Served 1M+ requests/day"],
-  //   technologies: ["TensorFlow", "Kubernetes", "GCP"],
-  // },
-  // {
-  //   title: "Software Developer",
-  //   company: "Microsoft",
-  //   period: "2022 - 2023",
-  //   description:
-  //     "Developed full-stack features for Microsoft Teams, focusing on real-time collaboration and accessibility improvements.",
-  //   achievements: ["Shipped 5 major features", "Improved accessibility score"],
-  //   technologies: ["TypeScript", "React", "Azure"],
-  // },
-  // {
-  //   title: "Research Assistant",
-  //   company: "UC Berkeley AI Lab",
-  //   period: "2021 - 2023",
-  //   description:
-  //     "Conducted research on computer vision and natural language processing, publishing findings in top-tier conferences.",
-  //   achievements: ["3 publications", "Best Paper Award"],
-  //   technologies: ["Python", "PyTorch", "OpenCV"],
-  // },
+  {
+    title: "Graduate Researcher",
+    company: "University of Illinois",
+    period: "Fall 2025",
+    description:
+      "Developed novel approaches for multi-agent systems and contributed to research on emergent behaviors in large language models.",
+    achievements: ["Published research paper", "Improved model efficiency by 15%"],
+    technologies: ["Python", "PyTorch", "Transformers"],
+  },
 ]
 
 export const projects = [
@@ -97,111 +69,37 @@ export const projects = [
     category: "ai",
     stats: { stars: 320, forks: 45 },
   },
-  // {
-  //   title: "Neural Style Transfer",
-  //   description:
-  //       "Real-time style transfer application that transforms photos into artwork using deep learning, running entirely in the browser.",
-  //   technologies: ["TensorFlow.js", "React", "WebGL"],
-  //   github: "https://github.com/alexchen/neural-style",
-  //   demo: "https://neural-style.demo",
-  //   category: "ai",
-  //   stats: { stars: 180, forks: 28 },
-  // },
-  // {
-  //   title: "Distributed Training Platform",
-  //   description:
-  //       "Scalable platform for training large ML models across multiple nodes with automatic fault tolerance and checkpoint management.",
-  //   technologies: ["Kubernetes", "Python", "Ray", "PyTorch"],
-  //   github: "https://github.com/alexchen/dist-training",
-  //   category: "ai",
-  //   stats: { stars: 250, forks: 62 },
-  // },
-  // {
-  //   title: "Smart Trading Bot",
-  //   description:
-  //       "Algorithmic trading system using reinforcement learning to make data-driven trading decisions with risk management.",
-  //   technologies: ["Python", "RL", "PostgreSQL", "Docker"],
-  //   github: "https://github.com/alexchen/trading-bot",
-  //   category: "fullstack",
-  //   stats: { stars: 150, forks: 35 },
-  // },
-  // {
-  //   title: "Computer Vision Security",
-  //   description:
-  //       "Real-time object detection and tracking system for security applications using YOLO and custom-trained models.",
-  //   technologies: ["Python", "YOLO", "OpenCV", "CUDA"],
-  //   github: "https://github.com/alexchen/cv-security",
-  //   category: "ai",
-  //   stats: { stars: 95, forks: 22 },
-  // },
-  // {
-  //   title: "NL Query Engine",
-  //   description:
-  //       "Natural language to SQL converter that allows non-technical users to query databases using plain English.",
-  //   technologies: ["Python", "GPT-4", "PostgreSQL", "FastAPI"],
-  //   github: "https://github.com/alexchen/nl-query",
-  //   demo: "https://nl-query.demo",
-  //   category: "ai",
-  //   stats: { stars: 210, forks: 48 },
-  // },
-  // {
-  //   title: "E-Commerce Platform",
-  //   description:
-  //       "Full-stack e-commerce solution with real-time inventory management, payment processing, and analytics dashboard.",
-  //   technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-  //   github: "https://github.com/alexchen/ecommerce",
-  //   demo: "https://ecommerce.demo",
-  //   category: "web",
-  //   stats: { stars: 145, forks: 32 },
-  // },
-  // {
-  //   title: "Real-time Chat Application",
-  //   description:
-  //       "Scalable messaging platform with WebSocket support, end-to-end encryption, and media sharing capabilities.",
-  //   technologies: ["React", "Node.js", "Socket.io", "Redis"],
-  //   github: "https://github.com/alexchen/chat-app",
-  //   demo: "https://chat.demo",
-  //   category: "web",
-  //   stats: { stars: 88, forks: 19 },
-  // },
-  // {
-  //   title: "DevOps Dashboard",
-  //   description:
-  //       "Comprehensive monitoring and deployment platform integrating CI/CD pipelines, container orchestration, and real-time metrics.",
-  //   technologies: ["Go", "React", "Kubernetes", "Prometheus"],
-  //   github: "https://github.com/alexchen/devops-dash",
-  //   category: "fullstack",
-  //   stats: { stars: 175, forks: 41 },
-  // },
+
+
 ]
 
 
-export const skills = {
-  programming: [
-    { name: "Python", level: 95 },
-    { name: "TypeScript", level: 90 },
-    { name: "Rust", level: 80 },
-    { name: "Go", level: 75 },
-  ],
-  aiml: [
-    { name: "PyTorch", level: 95 },
-    { name: "TensorFlow", level: 90 },
-    { name: "Transformers", level: 90 },
-    { name: "Scikit-learn", level: 85 },
-  ],
-  web: [
-    { name: "React", level: 90 },
-    { name: "Next.js", level: 85 },
-    { name: "Node.js", level: 80 },
-    { name: "GraphQL", level: 75 },
-  ],
-  cloud: [
-    { name: "Docker", level: 90 },
-    { name: "AWS", level: 85 },
-    { name: "GCP", level: 80 },
-    { name: "Kubernetes", level: 75 },
-  ],
-}
+// export const skills = {
+//   programming: [
+//     { name: "Python", level: 95 },
+//     { name: "TypeScript", level: 90 },
+//     { name: "Rust", level: 80 },
+//     { name: "Go", level: 75 },
+//   ],
+//   aiml: [
+//     { name: "PyTorch", level: 95 },
+//     { name: "TensorFlow", level: 90 },
+//     { name: "Transformers", level: 90 },
+//     { name: "Scikit-learn", level: 85 },
+//   ],
+//   web: [
+//     { name: "React", level: 90 },
+//     { name: "Next.js", level: 85 },
+//     { name: "Node.js", level: 80 },
+//     { name: "GraphQL", level: 75 },
+//   ],
+//   cloud: [
+//     { name: "Docker", level: 90 },
+//     { name: "AWS", level: 85 },
+//     { name: "GCP", level: 80 },
+//     { name: "Kubernetes", level: 75 },
+//   ],
+// }
 
 
 export const blogPosts = [

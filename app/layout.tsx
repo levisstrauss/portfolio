@@ -26,8 +26,7 @@ export const metadata: Metadata = {
     title: "Zakaria Coulibaly | AI/ML Engineer & Full-Stack Developer",
     description: "Building the future with AI and elegant code",
     type: "website",
-  },
-  generator: 'v0.app'
+  }
 }
 
 export default function RootLayout({children,}: Readonly<{

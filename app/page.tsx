@@ -48,12 +48,12 @@ export default async function Home() {
 
   return (
       <>
-          <Preloader />
+          {/*<Preloader />*/}
           <AvailabilityBadge />
           <ScrollProgress />
-          <CustomCursor />
+          {/*<CustomCursor />*/}
           <BackToTop />
-          <SnowEffect />
+          {/*<SnowEffect />*/}
 
           <main className="min-h-screen bg-background">
               <Navigation personalInfo={personalInfo} />

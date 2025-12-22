@@ -27,7 +27,7 @@ export function AboutSection() {
   const stats = [
     { icon: Code, value: personalInfo.stats.repositories, suffix: "+", label: "Repositories" },
     { icon: Sparkles, value: personalInfo.stats.stars, suffix: "", label: "GitHub Stars", isLarge: true },
-    { icon: Award, value: personalInfo.stats.publications, suffix: "", label: "Publications" },
+    { icon: Award, value: personalInfo.stats.publications, suffix: "", label: "Paper Read" },
     { icon: GraduationCap, value: personalInfo.stats.contributions, suffix: "+", label: "Contributions" },
   ]
 
