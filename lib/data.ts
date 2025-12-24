@@ -102,37 +102,37 @@ export const projects = [
 // }
 
 
-export const blogPosts = [
-  {
-    title: "Building Scalable AI Systems: Lessons from Production",
-    excerpt:
-      "Key insights from deploying ML models at scale, including architecture patterns and monitoring strategies.",
-    date: "2024-10-15",
-    readTime: "8 min",
-    tags: ["AI", "MLOps", "Architecture"],
-  },
-  {
-    title: "The Future of Agentic Software Development",
-    excerpt: "Exploring how autonomous AI agents are changing the landscape of software development.",
-    date: "2024-09-22",
-    readTime: "12 min",
-    tags: ["AI Agents", "Future", "Development"],
-  },
-  {
-    title: "Optimizing Neural Networks for Edge Deployment",
-    excerpt: "Techniques for model compression, quantization, and optimization for resource-constrained devices.",
-    date: "2024-08-10",
-    readTime: "10 min",
-    tags: ["Edge AI", "Optimization", "Mobile"],
-  },
-  {
-    title: "Understanding Transformer Architecture",
-    excerpt: "A deep dive into the architecture that powers modern large language models.",
-    date: "2024-07-05",
-    readTime: "15 min",
-    tags: ["Transformers", "NLP", "Deep Learning"],
-  },
-]
+// export const blogPosts = [
+//   {
+//     title: "Building Scalable AI Systems: Lessons from Production",
+//     excerpt:
+//       "Key insights from deploying ML models at scale, including architecture patterns and monitoring strategies.",
+//     date: "2024-10-15",
+//     readTime: "8 min",
+//     tags: ["AI", "MLOps", "Architecture"],
+//   },
+//   {
+//     title: "The Future of Agentic Software Development",
+//     excerpt: "Exploring how autonomous AI agents are changing the landscape of software development.",
+//     date: "2024-09-22",
+//     readTime: "12 min",
+//     tags: ["AI Agents", "Future", "Development"],
+//   },
+//   {
+//     title: "Optimizing Neural Networks for Edge Deployment",
+//     excerpt: "Techniques for model compression, quantization, and optimization for resource-constrained devices.",
+//     date: "2024-08-10",
+//     readTime: "10 min",
+//     tags: ["Edge AI", "Optimization", "Mobile"],
+//   },
+//   {
+//     title: "Understanding Transformer Architecture",
+//     excerpt: "A deep dive into the architecture that powers modern large language models.",
+//     date: "2024-07-05",
+//     readTime: "15 min",
+//     tags: ["Transformers", "NLP", "Deep Learning"],
+//   },
+// ]
 
 export const certifications = [
   {
@@ -195,7 +195,6 @@ export const navItems = [
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Certifications", href: "#certifications" },
-  { label: "Blog", href: "#blog" },
   { label: "Contact", href: "#contact" },
 ]
 

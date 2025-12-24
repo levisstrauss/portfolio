@@ -5,7 +5,7 @@ import { ExperienceSection } from "@/components/experience-section"
 import { ProjectsSection } from "@/components/projects-section"
 import { SkillsSection } from "@/components/skills-section"
 import { CertificationsSection } from "@/components/certifications-section"
-import { BlogSection } from "@/components/blog-section"
+// import { BlogSection } from "@/components/blog-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 
@@ -63,7 +63,7 @@ export default async function Home() {
               <ProjectsSection />
               <SkillsSection />
               <CertificationsSection />
-              <BlogSection />
+              {/*<BlogSection />*/}
               <ContactSection />
               <Footer />
           </main>
